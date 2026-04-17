@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "immersion_in_traffic_context:industrial_furnace"
+    },
+    "title": {
+      "translate": "advancements.coal_hog.title"
+    },
+    "description": {
+      "translate": "advancements.coal_hog.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coal_hog_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 23,
+    "loot": [
+      "immersion_in_traffic_context:blocks/petroleum"
+    ]
+  },
+  "parent": "immersion_in_traffic_context:homer"
+}

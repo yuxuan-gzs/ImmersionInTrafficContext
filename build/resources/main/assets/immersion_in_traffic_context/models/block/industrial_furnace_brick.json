@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "up": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "north": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "east": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "south": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "west": "immersion_in_traffic_context:block/industrialfurnacebrick",
+    "particle": "immersion_in_traffic_context:block/industrialfurnacebrick"
+  },
+  "render_type": "solid"
+}

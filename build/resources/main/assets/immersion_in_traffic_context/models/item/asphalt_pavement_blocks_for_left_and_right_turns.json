@@ -1,0 +1,22 @@
+{
+  "parent": "immersion_in_traffic_context:block/asphalt_pavement_blocks_for_left_and_right_turns",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ironcan_2",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bbb",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "immersion_in_traffic_context:industrial_capsicum_1"
+    },
+    "c": {
+      "item": "immersion_in_traffic_context:iron_can"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:road_line_removal_spray",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "s4",
+    "unlockingItems": [
+      {
+        "value": "Blocks.CONCRETE#0"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Blocks.CONCRETE_POWDER#0"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:WhiteConcreteStonePillar"
+    },
+    "name": "s_4",
+    "namespace": "mod"
+  }
+}

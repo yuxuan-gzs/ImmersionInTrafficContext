@@ -1,0 +1,202 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-05 13:51:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2026-04-05 13:51:33 +0800",
+      "minecraft:taiga": "2026-04-05 13:52:32 +0800"
+    },
+    "done": false
+  },
+  "immersion_in_traffic_context:recipes/com_2": {
+    "criteria": {
+      "has_ingredient_1": "2026-04-05 14:07:40 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/com_1": {
+    "criteria": {
+      "has_ingredient_1": "2026-04-05 14:07:40 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_3": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_2": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_5": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_1": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_7": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_6": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_9": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_8": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/tiexiangzhi": {
+    "criteria": {
+      "has_ingredient_1": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/itcitpeifang": {
+    "criteria": {
+      "has_ingredient_1": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_10": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_14": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_13": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_12": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_11": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/asphalt_road_block_15": {
+    "criteria": {
+      "has_the_recipe": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:homer": {
+    "criteria": {
+      "homer_0": "2026-04-05 14:07:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-04-05 14:07:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-04-05 14:07:52 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:pitch_black_and_viscous": {
+    "criteria": {
+      "pitch_black_and_viscous_0": "2026-04-05 14:08:57 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:hot": {
+    "criteria": {
+      "hot_0": "2026-04-05 14:09:05 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/mould_1": {
+    "criteria": {
+      "has_ingredient_0": "2026-04-06 14:39:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-04-06 14:47:08 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:coal_hog": {
+    "criteria": {
+      "coal_hog_0": "2026-04-06 14:47:44 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:i": {
+    "criteria": {
+      "i_0": "2026-04-10 19:14:52 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_1": {
+    "criteria": {
+      "has_ingredient_0": "2026-04-11 16:55:52 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-04-11 16:55:52 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_3": {
+    "criteria": {
+      "has_ingredient_0": "2026-04-11 16:55:52 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_4": {
+    "criteria": {
+      "has_ingredient_0": "2026-04-11 16:55:52 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

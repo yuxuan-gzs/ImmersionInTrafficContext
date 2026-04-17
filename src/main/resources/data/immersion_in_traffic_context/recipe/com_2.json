@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "com_2",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fdf"
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:coal"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "minecraft:hopper"
+    },
+    "f": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:asphalt_mixing_plant",
+    "count": 1
+  }
+}

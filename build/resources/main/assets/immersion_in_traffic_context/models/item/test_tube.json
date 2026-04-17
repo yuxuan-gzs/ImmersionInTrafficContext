@@ -1,0 +1,30 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "immersion_in_traffic_context:item/cdx1"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/cdx1"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/cdx1"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/cdx1"
+      }
+    }
+  }
+}

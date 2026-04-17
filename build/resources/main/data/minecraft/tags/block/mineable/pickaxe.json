@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "immersion_in_traffic_context:u_turn_asphalt_pavement_block",
+    "immersion_in_traffic_context:junction_1",
+    "immersion_in_traffic_context:inclined_gray_concrete_half_brick",
+    "immersion_in_traffic_context:junction_2",
+    "immersion_in_traffic_context:industrial_furnace_tank",
+    "immersion_in_traffic_context:junction_3",
+    "immersion_in_traffic_context:white_zebra_crossing",
+    "immersion_in_traffic_context:dual_yellow_zebra_crossing",
+    "immersion_in_traffic_context:straight_ahead_and_right_turn_asphalt_pavement_block",
+    "immersion_in_traffic_context:rough_asphalt_block",
+    "immersion_in_traffic_context:asphalt_road_block",
+    "immersion_in_traffic_context:white_concrete_stone_pillar",
+    "immersion_in_traffic_context:yellow_zebra_crossing",
+    "immersion_in_traffic_context:right_turn_asphalt_pavement_block",
+    "immersion_in_traffic_context:industrial_furnace_brick",
+    "immersion_in_traffic_context:asphalt_road_block_illumination_light",
+    "immersion_in_traffic_context:industrial_furnace",
+    "immersion_in_traffic_context:straight_ahead_and_left_turn_asphalt_pavement_block",
+    "immersion_in_traffic_context:asphalt_pavement_blocks_for_left_and_right_turns",
+    "immersion_in_traffic_context:straight_ahead_asphalt_pavement_block",
+    "immersion_in_traffic_context:left_turn_asphalt_pavement_block",
+    "immersion_in_traffic_context:inclined_white_concrete_half_brick",
+    "immersion_in_traffic_context:gray_concrete_stone_pillar",
+    "immersion_in_traffic_context:bituminous_ore"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ind_1",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    },
+    "c": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:industrial_furnace_brick",
+    "count": 1
+  }
+}

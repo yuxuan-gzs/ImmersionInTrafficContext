@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/itc_1_b",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/texture12",
+    "particle": "immersion_in_traffic_context:block/texture12",
+    "0": "immersion_in_traffic_context:block/texture12"
+  },
+  "render_type": "solid"
+}

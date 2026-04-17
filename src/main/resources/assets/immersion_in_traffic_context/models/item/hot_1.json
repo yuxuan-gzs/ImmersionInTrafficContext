@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "immersion_in_traffic_context:item/gfuyfyiu"
+  },
+  "render_type": "translucent"
+}

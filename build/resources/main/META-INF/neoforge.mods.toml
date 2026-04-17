@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="immersion_in_traffic_context"
+version="1.21.1.3.3.1"
+displayName="Immersion in Traffic Context"
+displayURL="https://center.mcmod.cn/1095763/#/home/"
+logoFile="logo.png"
+credits="Created using mod maker yuxuangzs - https://center.mcmod.cn/1095763/#/home/"
+authors="yuxuan"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.immersion_in_traffic_context]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.immersion_in_traffic_context]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
