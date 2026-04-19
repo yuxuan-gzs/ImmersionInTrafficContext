@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "a6",
+  "ingredient": "immersion_in_traffic_context:rough_asphalt_block",
+  "result": {
+    "id": "immersion_in_traffic_context:junction_2",
+    "count": 1
+  }
+}

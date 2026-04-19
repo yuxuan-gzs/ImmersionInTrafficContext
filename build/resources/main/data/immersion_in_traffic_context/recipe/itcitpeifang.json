@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "itcitpeifang",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": "immersion_in_traffic_context:hammer",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:stone",
+    "d": "minecraft:hopper",
+    "e": "minecraft:furnace"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:industrial_furnace",
+    "count": 1
+  }
+}

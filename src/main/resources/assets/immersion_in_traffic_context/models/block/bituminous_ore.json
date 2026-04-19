@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/coal_ore",
+    "up": "minecraft:block/coal_ore",
+    "north": "minecraft:block/coal_ore",
+    "east": "minecraft:block/coal_ore",
+    "south": "minecraft:block/coal_ore",
+    "west": "minecraft:block/coal_ore",
+    "particle": "minecraft:block/coal_ore"
+  },
+  "render_type": "solid"
+}

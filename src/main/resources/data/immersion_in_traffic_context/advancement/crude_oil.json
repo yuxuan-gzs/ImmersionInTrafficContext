@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "immersion_in_traffic_context:petroleum_bucket"
+    },
+    "title": {
+      "translate": "advancements.crude_oil.title"
+    },
+    "description": {
+      "translate": "advancements.crude_oil.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crude_oil_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersion_in_traffic_context:petroleum_bucket"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 120
+  },
+  "parent": "immersion_in_traffic_context:homer"
+}

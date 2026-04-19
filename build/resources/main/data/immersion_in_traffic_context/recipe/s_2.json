@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "s2",
+  "ingredient": "minecraft:light_gray_concrete",
+  "result": {
+    "id": "immersion_in_traffic_context:inclined_gray_concrete_half_brick",
+    "count": 4
+  }
+}

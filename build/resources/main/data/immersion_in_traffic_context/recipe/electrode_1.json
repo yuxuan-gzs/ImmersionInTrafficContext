@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "electrode_1",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " de",
+    "d  "
+  ],
+  "key": {
+    "a": "immersion_in_traffic_context:hammer",
+    "b": "minecraft:black_dye",
+    "c": "minecraft:redstone",
+    "d": "minecraft:copper_ingot",
+    "e": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:electrode",
+    "count": 1
+  }
+}

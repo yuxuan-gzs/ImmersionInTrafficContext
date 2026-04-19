@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "immersion_in_traffic_context:safety"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "immersion_in_traffic_context:safety"
+      }
+    ]
+  }
+}

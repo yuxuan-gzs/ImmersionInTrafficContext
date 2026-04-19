@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/asphaltevaporationapparatus3",
+    "up": "immersion_in_traffic_context:block/asphaltevaporationapparatus1",
+    "north": "immersion_in_traffic_context:block/asphaltevaporationapparatus2",
+    "east": "immersion_in_traffic_context:block/asphaltevaporationapparatus2",
+    "south": "immersion_in_traffic_context:block/asphaltevaporationapparatus2",
+    "west": "immersion_in_traffic_context:block/asphaltevaporationapparatus2",
+    "particle": "immersion_in_traffic_context:block/asphaltevaporationapparatus3"
+  },
+  "render_type": "solid"
+}

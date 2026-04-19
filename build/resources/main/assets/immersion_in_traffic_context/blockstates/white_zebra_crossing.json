@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "immersion_in_traffic_context:block/white_zebra_crossing"
+    },
+    "facing=east": {
+      "model": "immersion_in_traffic_context:block/white_zebra_crossing",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion_in_traffic_context:block/white_zebra_crossing",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion_in_traffic_context:block/white_zebra_crossing",
+      "y": 270
+    }
+  }
+}

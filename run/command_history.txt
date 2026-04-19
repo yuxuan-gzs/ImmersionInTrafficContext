@@ -1,0 +1,14 @@
+/give @s immersion_in_traffic_context:hammer
+/give @s immersion_in_traffic_context:asphalt_mixing_plant
+/itc:remove 10 10 10 10 10 20
+/reload
+/remove area 100 64 200 110 74 210
+/give Dev immersion_in_traffic_context:road_engineering
+/give @s itc:cs_s
+/give @s immersion_in_traffic_context:petroleum_bucket
+/giv itc:cs_s
+/give Dev immersion_in_traffic_context:jgbkvhdmdrsjudgjuplswqwqezbnnjyjrwqwoi
+/giv itc:cs_s
+/fill -34 36 77
+/giv itc:cs_s
+/give Dev immersion_in_traffic_context:industrial_furnace

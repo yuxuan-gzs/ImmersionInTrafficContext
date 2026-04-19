@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "immersion_in_traffic_context:blocks/gray_concrete_stone_pillar",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersion_in_traffic_context:gray_concrete_stone_pillar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "safety_4",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "immersion_in_traffic_context:plastic_ingot",
+    "b": "minecraft:yellow_dye",
+    "c": "minecraft:red_dye"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:safety_boots",
+    "count": 1
+  }
+}

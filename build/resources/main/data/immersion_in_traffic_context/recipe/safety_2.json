@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "safety_2",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": "immersion_in_traffic_context:plastic_ingot",
+    "b": "minecraft:red_dye",
+    "c": "minecraft:yellow_dye"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:safety_chestplate",
+    "count": 1
+  }
+}

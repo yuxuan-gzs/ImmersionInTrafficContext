@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tiexiangzhi",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bcc",
+    "bbb"
+  ],
+  "key": {
+    "a": "immersion_in_traffic_context:hammer",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:chest"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:iron_drawer_cabinet",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "immersion_in_traffic_context:custom/plastic_ingot",
+  "textures": {
+    "0": "immersion_in_traffic_context:block/plasticingot1",
+    "particle": "immersion_in_traffic_context:item/plasticingot"
+  }
+}

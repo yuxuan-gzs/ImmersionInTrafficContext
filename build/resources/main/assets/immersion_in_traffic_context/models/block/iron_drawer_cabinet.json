@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/mm3",
+    "up": "immersion_in_traffic_context:block/mm3",
+    "north": "immersion_in_traffic_context:block/irondrawercabinet",
+    "east": "immersion_in_traffic_context:block/mm3",
+    "south": "immersion_in_traffic_context:block/mm3",
+    "west": "immersion_in_traffic_context:block/mm3",
+    "particle": "immersion_in_traffic_context:block/mm3"
+  },
+  "render_type": "solid"
+}

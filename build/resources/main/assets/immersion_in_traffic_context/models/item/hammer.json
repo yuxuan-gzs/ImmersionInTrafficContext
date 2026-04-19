@@ -1,0 +1,7 @@
+{
+  "parent": "immersion_in_traffic_context:custom/hammer",
+  "textures": {
+    "0": "immersion_in_traffic_context:block/hammer",
+    "particle": "immersion_in_traffic_context:item/x1"
+  }
+}

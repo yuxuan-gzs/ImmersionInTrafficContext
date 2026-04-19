@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "b2",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "minecraft:glass"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:test_tube",
+    "count": 1
+  }
+}

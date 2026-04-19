@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "immersion_in_traffic_context:item/x3"
+  }
+}

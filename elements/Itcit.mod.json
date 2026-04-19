@@ -1,0 +1,851 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 131,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 148,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 165,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 131,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 148,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 165,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 131,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 148,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 165,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Hammer"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 184,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 214,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 244,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 261,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 278,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 14,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 244,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 15,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 261,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 16,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 278,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 17,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 244,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 18,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 261,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 19,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 278,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx8.png",
+          "use1Xscale": false,
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.COAL#0"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 20,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 192,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_it0.png",
+          "use1Xscale": true,
+          "x": 233,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc0.png",
+          "use1Xscale": false,
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc0_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit1"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc0_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit2"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit3"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit4"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit5"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit6"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit7"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit8"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit9"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit10"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit11"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit12"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit13"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit14"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit15"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit16"
+          },
+          "x": 187,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit17"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit18"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit19"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit20"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit21"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit22"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit23"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc23.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit24"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc_itc24.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcit25"
+          },
+          "x": 186,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "957.png",
+          "use1Xscale": false,
+          "x": 193,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_coal",
+          "text": {
+            "fixedValue": "coal >= 10"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 188,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_hammer",
+          "text": {
+            "fixedValue": "hammer"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 182,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite1"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite2"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite3"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite4"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite5"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite6"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rx7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Itcite7"
+          },
+          "x": 193,
+          "y": 71,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

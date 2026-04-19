@@ -1,0 +1,131 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 146,
+    "height": 184,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "itc2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Ci2"
+          },
+          "x": 74,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itc1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Ci1"
+          },
+          "x": 141,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "1",
+          "name": "pagination",
+          "width": 40,
+          "height": 20,
+          "x": 384,
+          "y": 218,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_immersion_in_traffic_context",
+          "text": {
+            "fixedValue": "Immersion In Traffic"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Ci1"
+          },
+          "x": 161,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_context",
+          "text": {
+            "fixedValue": "Context"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Ci1"
+          },
+          "x": 195,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb1",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "displayCondition": {
+            "name": "Ci1"
+          },
+          "x": 179,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_crafting_recipe",
+          "text": {
+            "fixedValue": "Crafting Recipe >"
+          },
+          "color": {
+            "value": -16777172,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Ci1"
+          },
+          "x": 186,
+          "y": 70,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
