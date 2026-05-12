@@ -1,0 +1,26 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Coal hog",
+    "achievementDescription": "craft industrial furnace",
+    "achievementIcon": {
+      "value": "CUSTOM:IndustrialFurnace"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "Itc12"
+    ],
+    "rewardRecipes": [],
+    "rewardXP": 23,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Homer"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

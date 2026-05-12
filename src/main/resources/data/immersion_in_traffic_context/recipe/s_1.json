@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "s1",
+  "ingredient": {
+    "item": "minecraft:white_concrete"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:inclined_white_concrete_half_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "a1",
+  "ingredient": {
+    "item": "immersion_in_traffic_context:rough_asphalt_block"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:asphalt_road_block",
+    "count": 1
+  }
+}

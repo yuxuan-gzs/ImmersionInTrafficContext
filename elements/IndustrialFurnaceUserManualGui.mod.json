@@ -1,0 +1,80 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 270,
+    "height": 198,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_industrial_furnace_user_manual",
+          "text": {
+            "fixedValue": "Industrial Furnace User Manual"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ping_mu_jie_tu__2026-04-06_150610.png",
+          "use1Xscale": true,
+          "x": 85,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arrange_as_shown_above_must_be",
+          "text": {
+            "fixedValue": "Arrange as shown above (must be connected)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_activate",
+          "text": {
+            "fixedValue": "to activate."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 49,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

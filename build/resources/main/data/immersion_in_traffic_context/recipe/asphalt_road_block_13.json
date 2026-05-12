@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "a6",
+  "ingredient": {
+    "item": "immersion_in_traffic_context:rough_asphalt_block"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:straight_ahead_and_left_turn_asphalt_pavement_block",
+    "count": 1
+  }
+}

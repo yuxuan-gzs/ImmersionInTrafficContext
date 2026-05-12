@@ -1,0 +1,7 @@
+{
+  "parent": "immersion_in_traffic_context:custom/iron_can",
+  "textures": {
+    "0": "immersion_in_traffic_context:block/texture131",
+    "particle": "immersion_in_traffic_context:item/cc1"
+  }
+}

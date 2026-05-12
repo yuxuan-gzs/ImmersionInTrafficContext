@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "v1",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:industrial_capsicum_1"
+    }
+  ],
+  "result": {
+    "id": "immersion_in_traffic_context:deleted_mod_element",
+    "count": 1
+  }
+}

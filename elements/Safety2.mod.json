@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "safety_2",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PlasticIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      },
+      {
+        "value": "CUSTOM:PlasticIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Safety.body"
+    },
+    "name": "safety_2",
+    "namespace": "mod"
+  }
+}

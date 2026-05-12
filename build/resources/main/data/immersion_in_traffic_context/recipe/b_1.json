@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "b1",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_pane"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:redstoneledtube",
+    "count": 32
+  }
+}

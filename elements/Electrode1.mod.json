@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "electrode_1",
+    "unlockingItems": [
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:Hammer"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Hammer"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Electrode"
+    },
+    "name": "electrode_1",
+    "namespace": "mod"
+  }
+}

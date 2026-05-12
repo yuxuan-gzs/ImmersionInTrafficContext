@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Immersion In Traffic Context",
+    "icon": {
+      "value": "CUSTOM:Petroleum.bucket"
+    },
+    "showSearch": true
+  }
+}
