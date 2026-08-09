@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/traffic_signal_pole_ii",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/c2",
+    "particle": "immersion_in_traffic_context:block/c2",
+    "0": "immersion_in_traffic_context:block/traffic_signal_pole_ii"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "canb1",
+        "1": "canb2"
+      }
+    }
+  }
+}

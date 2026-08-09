@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "signal_barrel",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "abc",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "immersion_in_traffic_context:plastic_ingot"
+    },
+    "c": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:signal_barrel",
+    "count": 4
+  }
+}

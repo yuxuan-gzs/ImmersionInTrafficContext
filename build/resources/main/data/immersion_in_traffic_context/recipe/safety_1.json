@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "safety_1",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "b c"
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:plastic_ingot"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    },
+    "c": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:safety_helmet",
+    "count": 1
+  }
+}

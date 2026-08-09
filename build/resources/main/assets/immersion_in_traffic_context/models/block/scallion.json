@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "immersion_in_traffic_context:block/farmland",
+    "particle": "immersion_in_traffic_context:block/farmland"
+  },
+  "render_type": "cutout"
+}

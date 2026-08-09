@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mould_1",
+    "unlockingItems": [
+      "CUSTOM:Hammer",
+      "Items.IRON_NUGGET"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET",
+      "CUSTOM:Hammer",
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET",
+      "Items.IRON_NUGGET"
+    ],
+    "recipeReturnStack": "CUSTOM:Mould",
+    "name": "mould_1",
+    "namespace": "mod"
+  }
+}

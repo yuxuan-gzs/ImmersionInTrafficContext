@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "up": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "north": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "east": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "south": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "west": "immersion_in_traffic_context:block/canola_oil_flowing",
+    "particle": "immersion_in_traffic_context:block/canola_oil_flowing"
+  },
+  "render_type": "solid"
+}

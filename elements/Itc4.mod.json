@@ -1,0 +1,231 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "itc2.png",
+          "use1Xscale": false,
+          "x": 68,
+          "y": 19,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb2",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci1",
+          "x": 79,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_back",
+          "text": {
+            "fixedValue": "< back"
+          },
+          "color": {
+            "value": -16777172,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 81,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_how_to_configure_traffic_lights",
+          "text": {
+            "fixedValue": "How to Configure "
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 223,
+          "y": 27,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_traffic_lights",
+          "text": {
+            "fixedValue": "Traffic Lights ?"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 266,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_may_not_be_able_to_open_the",
+          "text": {
+            "fixedValue": "You may not be able to"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 223,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_open_the_traffic_lights_confi",
+          "text": {
+            "fixedValue": "to open the Traffic "
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 224,
+          "y": 93,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_open_the_configuration",
+          "text": {
+            "fixedValue": "open the configuration"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 223,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_interface_for",
+          "text": {
+            "fixedValue": "interface for"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 223,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_traffic_lights1",
+          "text": {
+            "fixedValue": "Traffic Lights"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 268,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lights_configuration",
+          "text": {
+            "fixedValue": "Lights configuration "
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 224,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_interface_hold_a_hammer",
+          "text": {
+            "fixedValue": "interface, hold a hammer "
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 224,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_rightclick",
+          "text": {
+            "fixedValue": "and right-click."
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 226,
+          "y": 123,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

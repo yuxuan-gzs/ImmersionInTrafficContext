@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/can",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/ethylene",
+    "particle": "immersion_in_traffic_context:block/ethylene",
+    "0": "immersion_in_traffic_context:block/can1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 7,
+    "group": "iron_can_1",
+    "unlockingItems": [
+      "Items.IRON_INGOT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.IRON_INGOT",
+      "",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT"
+    ],
+    "recipeReturnStack": "CUSTOM:IronCan",
+    "name": "iron_can_1",
+    "namespace": "mod"
+  }
+}

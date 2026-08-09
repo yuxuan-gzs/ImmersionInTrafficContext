@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Hammer",
+    "achievementDescription": "Obtain 1 Hammer",
+    "achievementIcon": "CUSTOM:Hammer",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "X1",
+      "AsphaltRoadBlock1",
+      "X2",
+      "AsphaltRoadBlock2",
+      "AsphaltRoadBlock3",
+      "AsphaltRoadBlock5",
+      "AsphaltRoadBlock6",
+      "AsphaltRoadBlock7",
+      "AsphaltRoadBlock8",
+      "AsphaltRoadBlock9",
+      "AsphaltRoadBlock10",
+      "AsphaltRoadBlock11",
+      "B1",
+      "B2",
+      "B3",
+      "AsphaltRoadBlock12",
+      "AsphaltRoadBlock13",
+      "AsphaltRoadBlock14",
+      "AsphaltRoadBlock15"
+    ],
+    "rewardXP": 13,
+    "achievementType": "task",
+    "parent": "adventure/adventuring_time",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"142\" y=\"44\"><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation inputs=\"0\"/><field name=\"min\">1</field><field name=\"max\">1</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Hammer</field></block></value></block></value></block></next></block></xml>"
+  }
+}

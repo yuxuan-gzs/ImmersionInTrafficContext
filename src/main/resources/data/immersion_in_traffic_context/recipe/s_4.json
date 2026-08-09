@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "s4",
+  "ingredient": {
+    "item": "minecraft:white_concrete_powder"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:white_concrete_stone_pillar",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 89,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid Bitumen",
+    "bucketName": "Liquid Bitumen Bucket",
+    "textureStill": "liquid_bitumen",
+    "textureFlowing": "petroleum1",
+    "textureRenderOverlay": "",
+    "hasFog": false,
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 48.0
+    },
+    "tintType": "Water",
+    "canMultiply": false,
+    "flowRate": 35,
+    "levelDecrease": 1,
+    "slopeFindDistance": 6,
+    "spawnParticles": false,
+    "dripParticle": "ASH",
+    "flowStrength": 1.3,
+    "luminosity": 0,
+    "density": 1100,
+    "viscosity": 4400,
+    "temperature": 573,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      "CUSTOM:ImmersionInTrafficContext"
+    ],
+    "emptySound": "",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 101.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BLACK",
+    "onNeighbourChanges": "LiquidBitumenPiLinFangKuaiGengXinShi",
+    "onEntityCollides": "LiquidBitumenShengWuWanJiaPengZhuangGaiFangKuaiShi"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "com_1",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "immersion_in_traffic_context:asphalt"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:rough_asphalt_block",
+    "count": 16
+  }
+}

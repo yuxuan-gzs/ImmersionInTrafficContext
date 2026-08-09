@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "signal_barrel",
+    "unlockingItems": [
+      "CUSTOM:PlasticIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.DYE#1",
+      "CUSTOM:PlasticIngot",
+      "Items.DYE#11",
+      "Items.DYE#1",
+      "CUSTOM:PlasticIngot",
+      "Items.DYE#11",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:SignalBarrel",
+    "name": "signal_barrel_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "I",
+    "achievementDescription": "I",
+    "achievementIcon": "Blocks.STONE#0",
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "I1"
+    ],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:Itc11",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation inputs=\"0\"/><field name=\"min\">1</field><field name=\"max\">1</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:IndustrialFurnace</field></block></value></block></value></block></next></block></xml>"
+  }
+}

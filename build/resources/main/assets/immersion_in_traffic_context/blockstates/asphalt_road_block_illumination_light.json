@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "immersion_in_traffic_context:block/asphalt_road_block_illumination_light"
+    },
+    "facing=east": {
+      "model": "immersion_in_traffic_context:block/asphalt_road_block_illumination_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion_in_traffic_context:block/asphalt_road_block_illumination_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion_in_traffic_context:block/asphalt_road_block_illumination_light",
+      "y": 270
+    }
+  }
+}

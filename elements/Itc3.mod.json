@@ -1,0 +1,183 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "itc2.png",
+          "use1Xscale": false,
+          "x": 68,
+          "y": 20,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_back",
+          "text": {
+            "fixedValue": "< back"
+          },
+          "color": {
+            "value": -16777172,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 83,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb1",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci1",
+          "x": 79,
+          "y": 36,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_industrial_furnace_has_a_3x3_str",
+          "text": {
+            "fixedValue": "Industrial Furnace has"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_after_placing_a_tank",
+          "text": {
+            "fixedValue": "After placing a tank"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_at_the_center_and_a",
+          "text": {
+            "fixedValue": "at the center and a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_main_unit_on_any",
+          "text": {
+            "fixedValue": "main unit on any side,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_it_becomes_operational",
+          "text": {
+            "fixedValue": "it becomes operational."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2026-07-16_13.21.54.png",
+          "use1Xscale": true,
+          "x": 178,
+          "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_3x3x3_structure",
+          "text": {
+            "fixedValue": "a 3×3×3 structure. "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 228,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2026-07-16_13.23.05.png",
+          "use1Xscale": true,
+          "x": 44,
+          "y": 59,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

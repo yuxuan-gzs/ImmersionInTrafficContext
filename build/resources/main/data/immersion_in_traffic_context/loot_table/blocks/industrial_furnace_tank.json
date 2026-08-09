@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "immersion_in_traffic_context:blocks/industrial_furnace_tank",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersion_in_traffic_context:industrial_furnace_tank"
+        }
+      ]
+    }
+  ]
+}

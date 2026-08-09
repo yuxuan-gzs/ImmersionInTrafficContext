@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "up": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "north": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "east": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "south": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "west": "immersion_in_traffic_context:block/roughasphaltlump2",
+    "particle": "immersion_in_traffic_context:block/roughasphaltlump2"
+  },
+  "render_type": "solid"
+}

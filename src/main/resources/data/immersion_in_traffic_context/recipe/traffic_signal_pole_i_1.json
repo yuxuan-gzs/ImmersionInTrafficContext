@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "traffic_signal_pole",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "ccc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "immersion_in_traffic_context:plastic_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:traffic_signal_pole_i",
+    "count": 5
+  }
+}

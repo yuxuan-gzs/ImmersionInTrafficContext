@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "immersion_in_traffic_context:blocks/industrial_capsicum",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersion_in_traffic_context:industrial_capsicum_1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

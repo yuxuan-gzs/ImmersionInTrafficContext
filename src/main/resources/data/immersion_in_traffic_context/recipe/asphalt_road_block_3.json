@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "a3",
+  "ingredient": {
+    "item": "immersion_in_traffic_context:rough_asphalt_block"
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:white_zebra_crossing",
+    "count": 1
+  }
+}

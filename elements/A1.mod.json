@@ -1,0 +1,955 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": "Xcbm",
+          "x": 153,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 175,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": "Xcbm",
+          "x": 153,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 251,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 268,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 251,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 269,
+          "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mi1.png",
+          "use1Xscale": false,
+          "x": 200,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "957.png",
+          "use1Xscale": false,
+          "x": 154,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": "Xcbm",
+          "x": 199,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "33.png",
+          "use1Xscale": false,
+          "x": 174,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m1.png",
+          "use1Xscale": false,
+          "displayCondition": "AA1",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m2.png",
+          "use1Xscale": false,
+          "displayCondition": "AA2",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m3.png",
+          "use1Xscale": false,
+          "displayCondition": "AA3",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m4.png",
+          "use1Xscale": false,
+          "displayCondition": "AA4",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m5.png",
+          "use1Xscale": false,
+          "displayCondition": "AA5",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m6.png",
+          "use1Xscale": false,
+          "displayCondition": "AA6",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m7.png",
+          "use1Xscale": false,
+          "displayCondition": "AA7",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m8.png",
+          "use1Xscale": false,
+          "displayCondition": "AA8",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m9.png",
+          "use1Xscale": false,
+          "displayCondition": "AA9",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m10.png",
+          "use1Xscale": false,
+          "displayCondition": "AA10",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m11.png",
+          "use1Xscale": false,
+          "displayCondition": "AA11",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m12.png",
+          "use1Xscale": false,
+          "displayCondition": "AA12",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m13.png",
+          "use1Xscale": false,
+          "displayCondition": "AA13",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m14.png",
+          "use1Xscale": false,
+          "displayCondition": "AA14",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m15.png",
+          "use1Xscale": false,
+          "displayCondition": "AA15",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m16.png",
+          "use1Xscale": false,
+          "displayCondition": "AA16",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m17.png",
+          "use1Xscale": false,
+          "displayCondition": "AA17",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m18.png",
+          "use1Xscale": false,
+          "displayCondition": "AA18",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m19.png",
+          "use1Xscale": false,
+          "displayCondition": "AA19",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m20.png",
+          "use1Xscale": false,
+          "displayCondition": "AA20",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m21.png",
+          "use1Xscale": false,
+          "displayCondition": "AA21",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m22.png",
+          "use1Xscale": false,
+          "displayCondition": "AA22",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m23.png",
+          "use1Xscale": false,
+          "displayCondition": "AA23",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m24.png",
+          "use1Xscale": false,
+          "displayCondition": "AA24",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m25.png",
+          "use1Xscale": false,
+          "displayCondition": "AA25",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m26.png",
+          "use1Xscale": false,
+          "displayCondition": "AA26",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m27.png",
+          "use1Xscale": false,
+          "displayCondition": "AA27",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m28.png",
+          "use1Xscale": false,
+          "displayCondition": "AA28",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m29.png",
+          "use1Xscale": false,
+          "displayCondition": "AA29",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m30.png",
+          "use1Xscale": false,
+          "displayCondition": "AA30",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m31.png",
+          "use1Xscale": false,
+          "displayCondition": "AA31",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m32.png",
+          "use1Xscale": false,
+          "displayCondition": "AA32",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m33.png",
+          "use1Xscale": false,
+          "displayCondition": "AA33",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m34.png",
+          "use1Xscale": false,
+          "displayCondition": "AA34",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m35.png",
+          "use1Xscale": false,
+          "displayCondition": "AA35",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m36.png",
+          "use1Xscale": false,
+          "displayCondition": "AA36",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m37.png",
+          "use1Xscale": false,
+          "displayCondition": "AA37",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m38.png",
+          "use1Xscale": false,
+          "displayCondition": "AA38",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m39.png",
+          "use1Xscale": false,
+          "displayCondition": "AA39",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m40.png",
+          "use1Xscale": false,
+          "displayCondition": "AA40",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m41.png",
+          "use1Xscale": false,
+          "displayCondition": "AA41",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m42.png",
+          "use1Xscale": false,
+          "displayCondition": "AA42",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m43.png",
+          "use1Xscale": false,
+          "displayCondition": "AA43",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m44.png",
+          "use1Xscale": false,
+          "displayCondition": "AA44",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m45.png",
+          "use1Xscale": false,
+          "displayCondition": "AA45",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m46.png",
+          "use1Xscale": false,
+          "displayCondition": "AA46",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m47.png",
+          "use1Xscale": false,
+          "displayCondition": "AA47",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m48.png",
+          "use1Xscale": false,
+          "displayCondition": "AA48",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m49.png",
+          "use1Xscale": false,
+          "displayCondition": "AA49",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m50.png",
+          "use1Xscale": false,
+          "displayCondition": "AA50",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m51.png",
+          "use1Xscale": false,
+          "displayCondition": "AA51",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m52.png",
+          "use1Xscale": false,
+          "displayCondition": "AA52",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m53.png",
+          "use1Xscale": false,
+          "displayCondition": "AA53",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m54.png",
+          "use1Xscale": false,
+          "displayCondition": "AA54",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m55.png",
+          "use1Xscale": false,
+          "displayCondition": "AA55",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m56.png",
+          "use1Xscale": false,
+          "displayCondition": "AA56",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m57.png",
+          "use1Xscale": false,
+          "displayCondition": "AA57",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m58.png",
+          "use1Xscale": false,
+          "displayCondition": "AA58",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m59.png",
+          "use1Xscale": false,
+          "displayCondition": "AA59",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m60.png",
+          "use1Xscale": false,
+          "displayCondition": "AA60",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m61.png",
+          "use1Xscale": false,
+          "displayCondition": "AA61",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m62.png",
+          "use1Xscale": false,
+          "displayCondition": "AA62",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m63.png",
+          "use1Xscale": false,
+          "displayCondition": "AA63",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m64.png",
+          "use1Xscale": false,
+          "displayCondition": "AA64",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m65.png",
+          "use1Xscale": false,
+          "displayCondition": "AA65",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m66.png",
+          "use1Xscale": false,
+          "displayCondition": "AA66",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m67.png",
+          "use1Xscale": false,
+          "displayCondition": "AA67",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "m68.png",
+          "use1Xscale": false,
+          "displayCondition": "AA68",
+          "x": 174,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mfk.png",
+          "use1Xscale": true,
+          "x": 176,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_when_making_do_not_exit_this_pa",
+          "text": {
+            "fixedValue": "When making, do not exit this page."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 172,
+          "y": 41,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

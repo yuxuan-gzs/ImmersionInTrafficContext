@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "safety_1",
+    "unlockingItems": [
+      "CUSTOM:PlasticIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot",
+      "",
+      "CUSTOM:PlasticIngot",
+      "Items.DYE#1",
+      "",
+      "Items.DYE#11"
+    ],
+    "recipeReturnStack": "CUSTOM:Safety.helmet",
+    "name": "safety_1",
+    "namespace": "mod"
+  }
+}

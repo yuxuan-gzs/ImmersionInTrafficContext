@@ -1,0 +1,214 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "itc2.png",
+          "use1Xscale": false,
+          "x": 68,
+          "y": 23,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_project_source_code",
+          "text": {
+            "fixedValue": "Project source code:"
+          },
+          "color": {
+            "value": -16777156,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_httpsgithubcomyuxuangzsim",
+          "text": {
+            "fixedValue": "https://github.com/"
+          },
+          "color": {
+            "value": -5585920,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_itc_use_the_gnu_v3",
+          "text": {
+            "fixedValue": "itc Use the GNU v3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 233,
+          "y": 43,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_open_source_license",
+          "text": {
+            "fixedValue": "open source license"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 233,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_yuxuangzsimmersionintrafficcon",
+          "text": {
+            "fixedValue": "yuxuan-gzs/Immersion"
+          },
+          "color": {
+            "value": -5585920,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 231,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_intrafficcontext",
+          "text": {
+            "fixedValue": "InTrafficContext"
+          },
+          "color": {
+            "value": -5585920,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 230,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_donation_links",
+          "text": {
+            "fixedValue": "Donation links:"
+          },
+          "color": {
+            "value": -44758,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 232,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_httpsifdiannetayuxuan_z100",
+          "text": {
+            "fixedValue": "https://ifdian.net/"
+          },
+          "color": {
+            "value": -12796644,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 232,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ayuxuan_z100t_itc",
+          "text": {
+            "fixedValue": "a/yuxuan_z100t_ITC"
+          },
+          "color": {
+            "value": -12796644,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 233,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb1",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci1",
+          "x": 84,
+          "y": 45,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_back",
+          "text": {
+            "fixedValue": "< back"
+          },
+          "color": {
+            "value": -16777156,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 89,
+          "y": 47,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

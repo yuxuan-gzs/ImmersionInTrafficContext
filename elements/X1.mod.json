@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "x1",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.IRON_INGOT",
+      "Items.STICK",
+      "",
+      "Items.STICK",
+      "Items.IRON_INGOT",
+      "Items.STICK",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Hammer",
+    "name": "x_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/int1_-_converted",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/mm3",
+    "particle": "immersion_in_traffic_context:block/mm3",
+    "0": "immersion_in_traffic_context:block/texture11"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "x2",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube",
+      "CUSTOM:Petroleum.bucket",
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube",
+      "CUSTOM:TestTube"
+    ],
+    "recipeReturnStack": "CUSTOM:PetroleumInASmallBottle",
+    "name": "x_2",
+    "namespace": "mod"
+  }
+}

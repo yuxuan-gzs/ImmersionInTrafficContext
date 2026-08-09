@@ -1,0 +1,448 @@
+{
+  "_fv": 89,
+  "_type": "block",
+  "definition": {
+    "texture": "c2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "red-green-0-red:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "states": [
+      {
+        "texture": "c2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "red-green-0-yell:default",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 2,
+              "name": "CUSTOM:age",
+              "type": "integer"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "texture": "c2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "red-green-0-red:default",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 2,
+              "name": "CUSTOM:age",
+              "type": "integer"
+            },
+            "value": 0
+          }
+        ]
+      },
+      {
+        "texture": "c2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "red-green-0-green:default",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 2,
+              "name": "CUSTOM:age",
+              "type": "integer"
+            },
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "itemTexture": "trafficlights",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": -11.0,
+        "my": 5.0,
+        "mz": 5.0,
+        "Mx": -5.0,
+        "My": 11.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": -5.0,
+        "my": 7.0,
+        "mz": 7.0,
+        "Mx": 0.0,
+        "My": 9.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": -2.0,
+        "mz": 4.0,
+        "Mx": 2.0,
+        "My": 18.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 12.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 16.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 6.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 10.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 4.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": -2.0,
+        "mz": 4.0,
+        "Mx": 3.0,
+        "My": 18.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": -2.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 0.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": -2.0,
+        "mz": 10.0,
+        "Mx": 3.0,
+        "My": 18.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 16.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 18.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 10.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 12.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 4.0,
+        "mz": 6.0,
+        "Mx": 3.0,
+        "My": 6.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 0.0,
+        "mz": 10.0,
+        "Mx": 4.0,
+        "My": 4.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 4.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 5.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 4.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 6.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 10.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 6.0,
+        "mz": 10.0,
+        "Mx": 4.0,
+        "My": 10.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 11.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 12.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 16.0,
+        "Mz": 6.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 12.0,
+        "mz": 10.0,
+        "Mx": 4.0,
+        "My": 16.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 16.0,
+        "mz": 5.0,
+        "Mx": 4.0,
+        "My": 17.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": -1.0,
+        "mz": 5.0,
+        "Mx": 1.0,
+        "My": 17.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": -1.0,
+        "my": 1.0,
+        "mz": 7.0,
+        "Mx": 1.0,
+        "My": 15.0,
+        "Mz": 9.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [
+      {
+        "min": 0,
+        "max": 2,
+        "name": "CUSTOM:age",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "name": "Traffic Lights",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 17.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "RARE",
+    "immuneToFire": false,
+    "creativeTabs": [
+      "CUSTOM:ImmersionInTrafficContext"
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": "",
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": true,
+    "hasCustomOpacity": true,
+    "lightOpacity": 0,
+    "tickRate": 20,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": true,
+    "emittedRedstonePower": {
+      "fixedValue": 2.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "iron_xylophone",
+    "creativePickItem": "",
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "soundOnStep": "METAL",
+    "isCustomSoundType": false,
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
+    "luminance": {
+      "fixedValue": 15.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "IRON",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": true,
+    "guiBoundTo": "TrafficLight",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": "TrafficLightsShuBiaoYouJianDanJiFangKuaiShi",
+    "onBlockAdded": "TrafficLightsFangKuaiBeiFangZhiShi",
+    "onTickUpdate": "TrafficLightsZaiYouXiKeGengXinShi",
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      "TAG:stone_ore_replaceables"
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

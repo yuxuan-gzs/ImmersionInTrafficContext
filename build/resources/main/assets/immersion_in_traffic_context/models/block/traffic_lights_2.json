@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/red-green-0-green",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/c2",
+    "particle": "immersion_in_traffic_context:block/c2",
+    "2": "immersion_in_traffic_context:block/red-green-green"
+  },
+  "render_type": "solid"
+}

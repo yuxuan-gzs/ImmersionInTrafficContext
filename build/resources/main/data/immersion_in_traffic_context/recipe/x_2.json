@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "x2",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:petroleum_bucket"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    },
+    {
+      "item": "immersion_in_traffic_context:test_tube"
+    }
+  ],
+  "result": {
+    "id": "immersion_in_traffic_context:petroleum_in_a_small_bottle",
+    "count": 8
+  }
+}

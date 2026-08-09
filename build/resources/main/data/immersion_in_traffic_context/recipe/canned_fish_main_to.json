@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "canned_fish",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:canned_fish"
+    }
+  ],
+  "result": {
+    "id": "immersion_in_traffic_context:canned_fish_main",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "immersion_in_traffic_context:block/asphalt_pavement_blocks_for_left_and_right_turns"
+    },
+    "facing=east": {
+      "model": "immersion_in_traffic_context:block/asphalt_pavement_blocks_for_left_and_right_turns",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion_in_traffic_context:block/asphalt_pavement_blocks_for_left_and_right_turns",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion_in_traffic_context:block/asphalt_pavement_blocks_for_left_and_right_turns",
+      "y": 270
+    }
+  }
+}

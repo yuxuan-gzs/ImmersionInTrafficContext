@@ -1,0 +1,384 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 168,
+    "height": 171,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_time_period",
+          "text": {
+            "fixedValue": "Select Time Period"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 162,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_last_30s",
+          "text": "Last 30 s",
+          "isUndecorated": false,
+          "onClick": "X0000x11",
+          "width": 63,
+          "height": 20,
+          "x": 217,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_first_30s",
+          "text": "First 30 s",
+          "isUndecorated": false,
+          "onClick": "X0000x10",
+          "width": 63,
+          "height": 20,
+          "x": 145,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "^"
+          },
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X0000x20",
+          "x": 146,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "^"
+          },
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "X0000x21",
+          "x": 213,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shortcut",
+          "text": {
+            "fixedValue": "Shortcut"
+          },
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 138,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty2",
+          "text": {
+            "fixedValue": "<"
+          },
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Shortcut",
+          "x": 183,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_custom",
+          "text": {
+            "fixedValue": "Custom"
+          },
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 138,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty3",
+          "text": {
+            "fixedValue": "<"
+          },
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "Custom",
+          "x": 172,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_o",
+          "text": {
+            "fixedValue": "o"
+          },
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 145,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_o1",
+          "text": {
+            "fixedValue": "o"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 145,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_o2",
+          "text": {
+            "fixedValue": "o"
+          },
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 145,
+          "y": 166,
+          "locked": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "yell_1",
+          "text": "",
+          "isCheckedProcedure": "Yell",
+          "x": 254,
+          "y": 162,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_custom",
+          "text": "Custom",
+          "isUndecorated": false,
+          "onClick": "Custom1",
+          "width": 55,
+          "height": 20,
+          "x": 218,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": "GUILv1",
+          "width": 21,
+          "height": 20,
+          "x": 155,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "26",
+          "name": "lv",
+          "width": 76,
+          "height": 20,
+          "x": 176,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": "GUILv2",
+          "width": 21,
+          "height": 20,
+          "x": 252,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": "GUIred1",
+          "width": 21,
+          "height": 20,
+          "x": 155,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "30",
+          "name": "red",
+          "width": 76,
+          "height": 20,
+          "x": 176,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": "GUIred2",
+          "width": 21,
+          "height": 20,
+          "x": 252,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": "GUIyell1",
+          "width": 21,
+          "height": 20,
+          "x": 155,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty5",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": "GUIyell2",
+          "width": 20,
+          "height": 20,
+          "x": 233,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "3",
+          "name": "yell",
+          "width": 57,
+          "height": 20,
+          "x": 176,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_save_custom_settings",
+          "text": "Save Custom Settings",
+          "isUndecorated": false,
+          "onClick": "Lv1",
+          "width": 128,
+          "height": 20,
+          "x": 145,
+          "y": 181,
+          "locked": false
+        }
+      }
+    ],
+    "onTick": "TrafficLightDangGaiGUIDaKaiShiMeiKeFaSheng",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

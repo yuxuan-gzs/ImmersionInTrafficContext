@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 32,
+    "group": "b1",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.GLASS_PANE",
+      "Blocks.GLASS_PANE",
+      "Blocks.GLASS_PANE",
+      "Items.REDSTONE",
+      "Items.REDSTONE",
+      "Items.REDSTONE",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT"
+    ],
+    "recipeReturnStack": "CUSTOM:Redstoneledtube",
+    "name": "b_1",
+    "namespace": "mod"
+  }
+}

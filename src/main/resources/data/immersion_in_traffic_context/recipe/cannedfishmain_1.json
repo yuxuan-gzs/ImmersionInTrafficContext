@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "canned_fish",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    " f "
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:scallion_main"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    },
+    "c": {
+      "item": "immersion_in_traffic_context:salt"
+    },
+    "d": {
+      "item": "minecraft:cod"
+    },
+    "e": {
+      "item": "minecraft:sugar"
+    },
+    "f": {
+      "item": "immersion_in_traffic_context:iron_can"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:canned_fish",
+    "count": 1
+  }
+}

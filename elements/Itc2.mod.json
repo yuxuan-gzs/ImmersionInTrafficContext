@@ -1,0 +1,119 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "itc2.png",
+          "use1Xscale": false,
+          "x": 68,
+          "y": 19,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb2",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci1",
+          "x": 79,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_back",
+          "text": {
+            "fixedValue": "< back"
+          },
+          "color": {
+            "value": -16777172,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 81,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb21",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci4",
+          "x": 249,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_industrial_furnace",
+          "text": {
+            "fixedValue": "Industrial Furnace >"
+          },
+          "color": {
+            "value": -16777172,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 238,
+          "y": 34,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_traffic_lights",
+          "text": {
+            "fixedValue": "Traffic Lights >"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 260,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_bb22",
+          "image": "bb1.png",
+          "hoveredImage": "bb2.png",
+          "onClick": "Ci5",
+          "x": 249,
+          "y": 48,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

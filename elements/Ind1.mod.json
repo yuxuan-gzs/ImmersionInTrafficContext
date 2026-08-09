@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ind_1",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Hammer",
+      "Items.IRON_NUGGET",
+      "",
+      "Items.IRON_NUGGET",
+      "Blocks.STONEBRICK#0",
+      "Items.IRON_NUGGET",
+      "",
+      "Items.IRON_NUGGET",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:IndustrialFurnaceBrick",
+    "name": "ind_1",
+    "namespace": "mod"
+  }
+}

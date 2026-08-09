@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "immersion_in_traffic_context:block/industrialchilipepperplant",
+    "particle": "immersion_in_traffic_context:block/industrialchilipepperplant"
+  },
+  "render_type": "cutout"
+}

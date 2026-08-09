@@ -1,0 +1,31 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "immersion_in_traffic_context:custom/can",
+    "textures": {
+      "0": "immersion_in_traffic_context:block/can1",
+      "particle": "immersion_in_traffic_context:item/signalbarrel_main"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/signalbarrel_main"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/signalbarrel_main"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/signalbarrel_main"
+      }
+    }
+  }
+}

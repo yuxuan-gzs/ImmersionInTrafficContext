@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "immersion_in_traffic_context:ethylene",
+    "immersion_in_traffic_context:petroleum",
+    "immersion_in_traffic_context:liquid_bitumen"
+  ]
+}

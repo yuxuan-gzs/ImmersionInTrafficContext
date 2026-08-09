@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "simplecircuitcomponents",
+    "unlockingItems": [
+      "CUSTOM:Hammer",
+      "Items.IRON_INGOT",
+      "CUSTOM:PlasticIngot",
+      "Items.REDSTONE"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Hammer",
+      "Items.IRON_INGOT",
+      "Items.COPPER_INGOT",
+      "Items.REDSTONE",
+      "Items.COPPER_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.DYE#4",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:SimpleCircuitComponents",
+    "name": "simplecircuitomponents",
+    "namespace": "mod"
+  }
+}

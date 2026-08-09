@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "canned_fish",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ScallionMain",
+      "Items.POTIONITEM",
+      "CUSTOM:ScallionMain",
+      "CUSTOM:Salt",
+      "Items.FISH#0",
+      "Items.SUGAR",
+      "",
+      "CUSTOM:IronCan",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CannedFish",
+    "name": "cannedfishmain_1",
+    "namespace": "mod"
+  }
+}

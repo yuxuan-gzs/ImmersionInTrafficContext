@@ -1,0 +1,64 @@
+{
+  "_fv": 89,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "roadlineremovalspray",
+    "customModelName": "Normal",
+    "guiTexture": "",
+    "customProperties": {},
+    "states": [],
+    "animations": [],
+    "name": "Road Line Removal Spray",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "CUSTOM:ImmersionInTrafficContext"
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 300,
+    "recipeRemainder": "",
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "isPiglinCurrency": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.0,
+    "attackSpeed": 1.6,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "onRightClickedOnBlock": "RoadLineRemovalSprayYouJiFangKuaiShiFangKuaiDeWeiZhi",
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": "Arrow",
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": "",
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": "",
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": [],
+    "attributeModifiers": []
+  }
+}

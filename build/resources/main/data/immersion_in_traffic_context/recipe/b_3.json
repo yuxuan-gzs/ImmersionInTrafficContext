@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "b3",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    "b": {
+      "item": "immersion_in_traffic_context:asphalt_road_block"
+    },
+    "c": {
+      "item": "minecraft:glass_pane"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "immersion_in_traffic_context:redstoneledtube"
+    },
+    "f": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "immersion_in_traffic_context:asphalt_road_block_illumination_light",
+    "count": 1
+  }
+}

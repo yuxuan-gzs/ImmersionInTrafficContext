@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ind_1",
+    "unlockingItems": [
+      "Items.IRON_INGOT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Hammer",
+      "Items.IRON_INGOT",
+      "",
+      "Items.IRON_INGOT",
+      "Blocks.GLASS",
+      "Items.IRON_INGOT",
+      "",
+      "Items.IRON_INGOT",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:IndustrialFurnaceTank",
+    "name": "ind_2",
+    "namespace": "mod"
+  }
+}

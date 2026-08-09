@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "hot",
+    "achievementDescription": "Scalded by Liquid Asphalt",
+    "achievementIcon": "CUSTOM:Hot1",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": "CUSTOM:PitchBlackAndViscous",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"263\" y=\"71\"><next><block type=\"custom_trigger\"/></next></block></xml>"
+  }
+}

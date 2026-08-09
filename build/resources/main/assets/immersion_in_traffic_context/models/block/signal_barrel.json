@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/signal_barrel",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/c2",
+    "particle": "immersion_in_traffic_context:block/c2",
+    "0": "immersion_in_traffic_context:block/signal_barrel"
+  },
+  "render_type": "solid"
+}

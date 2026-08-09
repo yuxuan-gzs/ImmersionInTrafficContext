@@ -1,0 +1,54 @@
+{
+  "_fv": 89,
+  "_type": "fluid",
+  "definition": {
+    "name": "Petroleum",
+    "bucketName": "Petroleum Bucket",
+    "textureStill": "canola_oil_flowing",
+    "textureFlowing": "canola_oil_still",
+    "textureRenderOverlay": "zx2",
+    "hasFog": true,
+    "fogColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 48.0
+    },
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 12,
+    "levelDecrease": 1,
+    "slopeFindDistance": 12,
+    "spawnParticles": true,
+    "dripParticle": "ASH",
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 200,
+    "viscosity": 20,
+    "temperature": 36,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      "CUSTOM:ImmersionInTrafficContext"
+    ],
+    "emptySound": "",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 1,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "ignitedByLava": true,
+    "flammability": 99,
+    "fireSpreadSpeed": 20,
+    "colorOnMap": "DEFAULT"
+  }
+}

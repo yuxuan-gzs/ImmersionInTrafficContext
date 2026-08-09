@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "traffic_signal_pole_i_and_ii"
+      }
+    }
+  }
+}

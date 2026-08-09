@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "immersion_in_traffic_context:block/industrial_capsicum_main_0"
+    },
+    "age=1": {
+      "model": "immersion_in_traffic_context:block/industrial_capsicum_main_1"
+    },
+    "age=2": {
+      "model": "immersion_in_traffic_context:block/industrial_capsicum_main_2"
+    },
+    "age=3": {
+      "model": "immersion_in_traffic_context:block/industrial_capsicum_main_3"
+    }
+  }
+}

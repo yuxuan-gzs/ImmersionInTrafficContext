@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "immersion_in_traffic_context:block/traffic_signal_pole_i_and_ii"
+    },
+    "facing=east": {
+      "model": "immersion_in_traffic_context:block/traffic_signal_pole_i_and_ii",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion_in_traffic_context:block/traffic_signal_pole_i_and_ii",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion_in_traffic_context:block/traffic_signal_pole_i_and_ii",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "_fv": 89,
+  "_type": "plant",
+  "definition": {
+    "renderType": 13,
+    "texture": "industrialcapsicum",
+    "customModelName": "Crop model",
+    "itemTexture": "industrialcapsicum",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 0,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Industrial Capsicum",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "DECORATIONS"
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isWaterloggable": false,
+    "hasBlockItem": false,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "soundOnStep": "PLANT",
+    "isCustomSoundType": false,
+    "breakSound": "",
+    "stepSound": "",
+    "placeSound": "",
+    "hitSound": "",
+    "fallSound": "",
+    "useLootTableForDrops": false,
+    "customDrop": "CUSTOM:IndustrialCapsicum1",
+    "dropAmount": 5,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": "",
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      "Blocks.GRASS"
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 5,
+    "generateFeature": true,
+    "restrictionBiomes": [],
+    "generationType": "Flower",
+    "patchSize": 2,
+    "generateAtAnyHeight": false
+  }
+}

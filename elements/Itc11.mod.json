@@ -1,0 +1,24 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Highway Engineering",
+    "achievementDescription": "Highway Engineering",
+    "achievementIcon": "CUSTOM:RoadEngineering",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "Itc12"
+    ],
+    "rewardRecipes": [
+      "X1"
+    ],
+    "rewardXP": 120,
+    "achievementType": "task",
+    "parent": "adventure/adventuring_time",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"268\" y=\"51\"><next><block type=\"item_in_inventory\"><value name=\"item\"><block type=\"item_predicate\"><mutation inputs=\"0\"/><field name=\"min\">1</field><field name=\"max\">1</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:RoadEngineering</field></block></value></block></value></block></next></block></xml>"
+  }
+}

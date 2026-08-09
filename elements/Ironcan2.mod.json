@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "ironcan_2",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Hammer",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IndustrialCapsicum1",
+      "CUSTOM:IronCan",
+      "CUSTOM:IndustrialCapsicum1"
+    ],
+    "recipeReturnStack": "CUSTOM:RoadLineRemovalSpray",
+    "name": "ironcan_2",
+    "namespace": "mod"
+  }
+}

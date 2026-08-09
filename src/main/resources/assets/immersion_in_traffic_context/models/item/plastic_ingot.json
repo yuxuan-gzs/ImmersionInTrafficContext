@@ -1,0 +1,31 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "immersion_in_traffic_context:custom/plastic_ingot",
+    "textures": {
+      "0": "immersion_in_traffic_context:block/plasticingot1",
+      "particle": "immersion_in_traffic_context:item/plasticingot"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/plasticingot"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/plasticingot"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "immersion_in_traffic_context:item/plasticingot"
+      }
+    }
+  }
+}

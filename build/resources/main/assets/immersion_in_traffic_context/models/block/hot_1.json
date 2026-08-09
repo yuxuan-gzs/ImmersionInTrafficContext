@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion_in_traffic_context:block/sdwsrrr",
+    "up": "immersion_in_traffic_context:block/sdwsrrr",
+    "north": "immersion_in_traffic_context:block/sdwsrrr",
+    "east": "immersion_in_traffic_context:block/sdwsrrr",
+    "south": "immersion_in_traffic_context:block/sdwsrrr",
+    "west": "immersion_in_traffic_context:block/sdwsrrr",
+    "particle": "immersion_in_traffic_context:block/sdwsrrr"
+  },
+  "render_type": "solid"
+}

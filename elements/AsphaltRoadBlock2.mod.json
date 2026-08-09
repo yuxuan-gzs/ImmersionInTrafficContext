@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "a2",
+    "unlockingItems": [
+      "CUSTOM:RoughAsphaltBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "CUSTOM:RoughAsphaltBlock",
+    "stoneCuttingReturnStack": "CUSTOM:Junction1",
+    "name": "asphalt_road_block_2",
+    "namespace": "mod"
+  }
+}

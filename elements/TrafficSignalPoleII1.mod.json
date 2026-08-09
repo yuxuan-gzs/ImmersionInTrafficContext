@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "traffic_signal_pole",
+    "unlockingItems": [
+      "CUSTOM:Hammer",
+      "CUSTOM:PlasticIngot",
+      "Items.IRON_INGOT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Hammer",
+      "Items.IRON_INGOT",
+      "",
+      "CUSTOM:PlasticIngot",
+      "Items.IRON_INGOT",
+      "CUSTOM:PlasticIngot",
+      "",
+      "Items.IRON_INGOT",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:TrafficSignalPoleII",
+    "name": "traffic_signal_pole_ii_1",
+    "namespace": "mod"
+  }
+}

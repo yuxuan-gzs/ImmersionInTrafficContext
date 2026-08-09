@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "safety_4",
+    "unlockingItems": [
+      "CUSTOM:PlasticIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "CUSTOM:PlasticIngot",
+      "Items.DYE#11",
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:PlasticIngot",
+      "Items.DYE#1",
+      "CUSTOM:PlasticIngot"
+    ],
+    "recipeReturnStack": "CUSTOM:Safety.boots",
+    "name": "safety_4",
+    "namespace": "mod"
+  }
+}
