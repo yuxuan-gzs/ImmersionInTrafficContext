@@ -145,6 +145,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": "IndustrialFurnaceFangKuaiBeiFangZhiShi",
+    "onTickUpdate": "Itcitliuchen",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -167,5 +167,7 @@
   "gui.immersion_in_traffic_context.itc_4.label_interface_for": "",
   "gui.immersion_in_traffic_context.itc_4.label_traffic_lights1": "",
   "gui.immersion_in_traffic_context.itc_4.label_open_the_configuration": "",
-  "gui.immersion_in_traffic_context.itc_4.label_interface_hold_a_hammer": "要手持锤子右键。"
+  "gui.immersion_in_traffic_context.itc_4.label_interface_hold_a_hammer": "要手持锤子右键。",
+  "block.immersion_in_traffic_context.white_concrete_half_brick": "白色混凝土半砖",
+  "item.immersion_in_traffic_context.wrench": "扳手"
 }

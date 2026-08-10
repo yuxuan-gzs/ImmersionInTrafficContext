@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "concretehalfbrick",
+    "unlockingItems": [
+      "Blocks.CONCRETE#0"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "Blocks.CONCRETE#0",
+    "stoneCuttingReturnStack": "CUSTOM:WhiteConcreteHalfBrick",
+    "name": "whiteconcretehalfbrick_pei_fan",
+    "namespace": "mod"
+  }
+}

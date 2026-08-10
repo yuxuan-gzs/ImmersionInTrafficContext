@@ -34,6 +34,12 @@ description="Adds customizable barriers & asphalt roads (+30% speed!). Design un
     side="BOTH"
 
 
+[[dependencies.immersion_in_traffic_context]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

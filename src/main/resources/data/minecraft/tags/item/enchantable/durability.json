@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "immersion_in_traffic_context:wrench",
     "immersion_in_traffic_context:hammer",
     "immersion_in_traffic_context:road_line_removal_spray",
     "immersion_in_traffic_context:mould",

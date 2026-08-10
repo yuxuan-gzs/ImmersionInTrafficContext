@@ -85,6 +85,8 @@ public class ImmersionInTrafficContextModItems {
 	public static final DeferredItem<Item> TRAFFIC_SIGNAL_POLE_II;
 	public static final DeferredItem<Item> TRAFFIC_SIGNAL_POLE_I_AND_II;
 	public static final DeferredItem<Item> SIMPLE_CIRCUIT_COMPONENTS;
+	public static final DeferredItem<Item> WHITE_CONCRETE_HALF_BRICK;
+	public static final DeferredItem<Item> WRENCH;
 	static {
 		PETROLEUM_BUCKET = REGISTRY.register("petroleum_bucket", PetroleumItem::new);
 		WASTE = REGISTRY.register("waste", WasteItem::new);
@@ -146,6 +148,8 @@ public class ImmersionInTrafficContextModItems {
 		TRAFFIC_SIGNAL_POLE_II = block(ImmersionInTrafficContextModBlocks.TRAFFIC_SIGNAL_POLE_II);
 		TRAFFIC_SIGNAL_POLE_I_AND_II = block(ImmersionInTrafficContextModBlocks.TRAFFIC_SIGNAL_POLE_I_AND_II);
 		SIMPLE_CIRCUIT_COMPONENTS = REGISTRY.register("simple_circuit_components", SimpleCircuitComponentsItem::new);
+		WHITE_CONCRETE_HALF_BRICK = block(ImmersionInTrafficContextModBlocks.WHITE_CONCRETE_HALF_BRICK);
+		WRENCH = REGISTRY.register("wrench", WrenchItem::new);
 	}
 
 	// Start of user code block custom items

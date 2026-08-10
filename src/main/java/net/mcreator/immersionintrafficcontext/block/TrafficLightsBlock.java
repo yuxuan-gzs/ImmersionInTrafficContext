@@ -28,7 +28,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.immersionintrafficcontext.procedures.TrafficLightsZaiYouXiKeGengXinShiProcedure;
 import net.mcreator.immersionintrafficcontext.procedures.TrafficLightsShuBiaoYouJianDanJiFangKuaiShiProcedure;
-import net.mcreator.immersionintrafficcontext.procedures.TrafficLightsFangKuaiBeiFangZhiShiProcedure;
 import net.mcreator.immersionintrafficcontext.block.entity.TrafficLightsBlockEntity;
 
 import com.google.common.collect.ImmutableMap;
@@ -124,7 +123,6 @@ public class TrafficLightsBlock extends Block implements EntityBlock {
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 20);
-		TrafficLightsFangKuaiBeiFangZhiShiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

@@ -10,262 +10,166 @@ import net.minecraft.core.BlockPos;
 import java.util.Calendar;
 
 public class TrafficLightsZaiYouXiKeGengXinShiProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "Select") == 0) {
-			if (Calendar.getInstance().get(Calendar.SECOND) >= 0 && Calendar.getInstance().get(Calendar.SECOND) < 31) {
-				{
-					int _value = 2;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			} else if (Calendar.getInstance().get(Calendar.SECOND) >= 31 && Calendar.getInstance().get(Calendar.SECOND) < 34) {
-				{
-					int _value = 1;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			} else if (Calendar.getInstance().get(Calendar.SECOND) >= 34 && Calendar.getInstance().get(Calendar.SECOND) < 61) {
-				{
-					int _value = 0;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			}
-		} else if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "Select") == 30) {
-			if (Calendar.getInstance().get(Calendar.SECOND) >= 58 && Calendar.getInstance().get(Calendar.SECOND) < 61) {
-				{
-					int _value = 1;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			} else if (Calendar.getInstance().get(Calendar.SECOND) >= 34 && Calendar.getInstance().get(Calendar.SECOND) < 58) {
-				{
-					int _value = 2;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			} else if (Calendar.getInstance().get(Calendar.SECOND) >= 0 && Calendar.getInstance().get(Calendar.SECOND) < 34) {
-				{
-					int _value = 0;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-			}
-		} else if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "Select") == 5) {
-			if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_lv") <= 0) {
-				return;
-			}
 
-			boolean executed = false;
+    // ========== NBT 键名常量 ==========
+    private static final String NBT_SELECT = "Select";
+    private static final String NBT_LV = "_lv";
+    private static final String NBT_RED = "_red";
+    private static final String NBT_YELL = "_yell";
 
-			// 阶段0：初始化绿灯时间计算
-			if (!executed && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_lv") == 0) {
-				if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time_lv") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_lv") >= 60) {
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null) {
-							_blockEntity.getPersistentData().putDouble("min_lv", Math.floor((getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time_lv") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_lv")) / 60));
-							_blockEntity.getPersistentData().putDouble("s_lv",
-									((getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time_lv") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_lv")) - getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv") * 60));
-							_blockEntity.getPersistentData().putDouble("min_lv_time", Calendar.getInstance().get(Calendar.MINUTE));
-						}
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv_time") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv") >= 60) {
-						if (!world.isClientSide()) {
-							BlockPos _bp = BlockPos.containing(x, y, z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null) {
-								_blockEntity.getPersistentData().putDouble("min_lv_time", ((getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv_time") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv")) - 60));
-							}
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-					}
-				} else {
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null) {
-							_blockEntity.getPersistentData().putDouble("s_lv", getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time_lv") + getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_lv"));
-							_blockEntity.getPersistentData().putDouble("min_lv_time", Calendar.getInstance().get(Calendar.MINUTE));
-						}
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-				}
-				if (!world.isClientSide()) {
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockEntity _blockEntity = world.getBlockEntity(_bp);
-					BlockState _bs = world.getBlockState(_bp);
-					if (_blockEntity != null) {
-						_blockEntity.getPersistentData().putDouble("tagName_lv", 1);
-					}
-					if (world instanceof Level _level)
-						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-				}
-				executed = true;
-			}
+    // 模式5 状态管理
+    private static final String NBT_STATE = "state";           // 0=绿灯, 1=红灯, 2=黄灯
+    private static final String NBT_PHASE_START = "phase_start"; // 当前阶段开始的绝对秒数
 
-			// 阶段1：绿灯→黄灯切换
-			if (!executed && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_lv") == 1
-					&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_red") == 0
-					&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_yell") == 0) {
+    // 缓存上次执行的秒数
+    private static int lastSecond = -1;
 
-				if (Calendar.getInstance().get(Calendar.MINUTE) == getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_lv_time")
-						&& Calendar.getInstance().get(Calendar.SECOND) == getBlockNBTNumber(world, BlockPos.containing(x, y, z), "s_lv")) {
+    public static void execute(LevelAccessor world, double x, double y, double z) {
+        if (world.isClientSide()) return;
 
-					{
-						int _value = 1;
-						BlockPos _pos = BlockPos.containing(x, y, z);
-						BlockState _bs = world.getBlockState(_pos);
-						if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-							world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-					}
+        int currentSecond = Calendar.getInstance().get(Calendar.SECOND);
+        if (currentSecond == lastSecond) return;
+        lastSecond = currentSecond;
 
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null) {
-							double time_yell = Calendar.getInstance().get(Calendar.SECOND);
-							double _yell = getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_yell");
-							double target_yell = time_yell + _yell;
+        BlockPos pos = BlockPos.containing(x, y, z);
+        double select = getBlockNBTNumber(world, pos, NBT_SELECT);
 
-							if (target_yell >= 60) {
-								int addMinutes = (int) Math.floor(target_yell / 60);
-								_blockEntity.getPersistentData().putDouble("min_yell", addMinutes);
-								_blockEntity.getPersistentData().putDouble("s_yell", target_yell % 60);
-								int newMinute = Calendar.getInstance().get(Calendar.MINUTE) + addMinutes;
-								if (newMinute >= 60) {
-									newMinute = newMinute - 60;
-								}
-								_blockEntity.getPersistentData().putDouble("min_yell_time", newMinute);
-							} else {
-								_blockEntity.getPersistentData().putDouble("s_yell", target_yell);
-								_blockEntity.getPersistentData().putDouble("min_yell_time", Calendar.getInstance().get(Calendar.MINUTE));
-							}
+        if (select == 0) {
+            handleMode0(world, pos);
+        } else if (select == 30) {
+            handleMode30(world, pos);
+        } else if (select == 5) {
+            handleMode5(world, pos);
+        }
+    }
 
-							_blockEntity.getPersistentData().putDouble("tagName_yell", 1);
-							_blockEntity.getPersistentData().putDouble("tagName_lv", 2);
-						}
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					executed = true;
-				}
-			}
+    // ========== 模式0：固定循环 ==========
+    private static void handleMode0(LevelAccessor world, BlockPos pos) {
+        int second = Calendar.getInstance().get(Calendar.SECOND);
+        int age;
+        if (second < 31) {
+            age = 2;
+        } else if (second < 34) {
+            age = 1;
+        } else {
+            age = 0;
+        }
+        setBlockAge(world, pos, age);
+    }
 
-			// 阶段2：黄灯→红灯切换
-			if (!executed && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_lv") == 2
-					&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_yell") == 1
-					&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_red") == 0) {
+    // ========== 模式30：固定循环 ==========
+    private static void handleMode30(LevelAccessor world, BlockPos pos) {
+        int second = Calendar.getInstance().get(Calendar.SECOND);
+        int age;
+        if (second < 34) {
+            age = 0;
+        } else if (second < 58) {
+            age = 2;
+        } else {
+            age = 1;
+        }
+        setBlockAge(world, pos, age);
+    }
 
-				double minYellTime = getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_yell_time");
-				if (minYellTime >= 0) {
-					if (Calendar.getInstance().get(Calendar.MINUTE) == minYellTime
-							&& Calendar.getInstance().get(Calendar.SECOND) == getBlockNBTNumber(world, BlockPos.containing(x, y, z), "s_yell")) {
+    // ========== 模式5：可编程定时模式（最终修复版） ==========
+    private static void handleMode5(LevelAccessor world, BlockPos pos) {
+        // 获取用户设定的时间
+        double lvTime = getBlockNBTNumber(world, pos, NBT_LV);
+        double redTime = getBlockNBTNumber(world, pos, NBT_RED);
+        double yellTime = getBlockNBTNumber(world, pos, NBT_YELL);
 
-						{
-							int _value = 0;
-							BlockPos _pos = BlockPos.containing(x, y, z);
-							BlockState _bs = world.getBlockState(_pos);
-							if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-								world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-						}
+        if (lvTime <= 0 || redTime <= 0 || yellTime <= 0) {
+            return;
+        }
 
-						if (!world.isClientSide()) {
-							BlockPos _bp = BlockPos.containing(x, y, z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null) {
-								double time_red = Calendar.getInstance().get(Calendar.SECOND);
-								double _red = getBlockNBTNumber(world, BlockPos.containing(x, y, z), "_red");
-								double target_red = time_red + _red;
+        // 获取当前绝对秒数（从0点开始）
+        int currentTotalSeconds = getTotalSeconds();
 
-								if (target_red >= 60) {
-									int addMinutes = (int) Math.floor(target_red / 60);
-									_blockEntity.getPersistentData().putDouble("min_red", addMinutes);
-									_blockEntity.getPersistentData().putDouble("s_red", target_red % 60);
-									int newMinute = Calendar.getInstance().get(Calendar.MINUTE) + addMinutes;
-									if (newMinute >= 60) {
-										newMinute = newMinute - 60;
-									}
-									_blockEntity.getPersistentData().putDouble("min_red_time", newMinute);
-								} else {
-									_blockEntity.getPersistentData().putDouble("s_red", target_red);
-									_blockEntity.getPersistentData().putDouble("min_red_time", Calendar.getInstance().get(Calendar.MINUTE));
-								}
+        // ========== 获取当前状态 ==========
+        double state = getBlockNBTNumber(world, pos, NBT_STATE);
+        double phaseStart = getBlockNBTNumber(world, pos, NBT_PHASE_START);
 
-								_blockEntity.getPersistentData().putDouble("tagName_red", 1);
-								_blockEntity.getPersistentData().putDouble("tagName_yell", 2);
-							}
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-						executed = true;
-					}
-				}
-			}
+        // 首次运行：初始化
+        if (state < 0 || phaseStart < 0) {
+            setBlockNBT(world, pos, NBT_STATE, 0.0);
+            setBlockNBT(world, pos, NBT_PHASE_START, (double) currentTotalSeconds);
+            setBlockAge(world, pos, 2); // 绿灯
+            return;
+        }
 
-			// 阶段3：红灯→绿灯切换
-			if (!executed && getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_yell") == 2
-					&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "tagName_red") == 1) {
+        int currentState = (int) state;
 
-				double minRedTime = getBlockNBTNumber(world, BlockPos.containing(x, y, z), "min_red_time");
-				if (minRedTime >= 0) {
-					if (Calendar.getInstance().get(Calendar.MINUTE) == minRedTime
-							&& Calendar.getInstance().get(Calendar.SECOND) == getBlockNBTNumber(world, BlockPos.containing(x, y, z), "s_red")) {
+        // ========== 获取当前阶段的持续时间 ==========
+        double currentPhaseDuration;
+        if (currentState == 0) {
+            currentPhaseDuration = lvTime;
+        } else if (currentState == 1) {
+            currentPhaseDuration = redTime;
+        } else {
+            currentPhaseDuration = yellTime;
+        }
 
-						{
-							int _value = 2;
-							BlockPos _pos = BlockPos.containing(x, y, z);
-							BlockState _bs = world.getBlockState(_pos);
-							if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-								world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-						}
+        // ========== 计算已过去的时间 ==========
+        double elapsed = currentTotalSeconds - phaseStart;
 
-						if (!world.isClientSide()) {
-							BlockPos _bp = BlockPos.containing(x, y, z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null) {
-								_blockEntity.getPersistentData().putDouble("time_lv", Calendar.getInstance().get(Calendar.SECOND));
-								_blockEntity.getPersistentData().putDouble("tagName_lv", 0);
-								_blockEntity.getPersistentData().putDouble("tagName_red", 0);
-								_blockEntity.getPersistentData().putDouble("tagName_yell", 0);
-							}
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-						executed = true;
-					}
-				}
-			}
-		}
-	}
+        // ========== 判断是否需要切换 ==========
+        if (elapsed >= currentPhaseDuration) {
+            // 计算下一个状态
+            int nextState = (currentState + 1) % 3;
 
-	private static double getBlockNBTNumber(LevelAccessor world, BlockPos pos, String tag) {
-		BlockEntity blockEntity = world.getBlockEntity(pos);
-		if (blockEntity != null)
-			return blockEntity.getPersistentData().getDouble(tag);
-		return -1;
-	}
+            // 更新 NBT
+            setBlockNBT(world, pos, NBT_STATE, (double) nextState);
+            setBlockNBT(world, pos, NBT_PHASE_START, (double) currentTotalSeconds);
+
+            // ========== 立即应用下一个阶段的灯光 ==========
+            int age;
+            if (nextState == 0) {
+                age = 2;
+            } else if (nextState == 1) {
+                age = 0;
+            } else {
+                age = 1;
+            }
+            setBlockAge(world, pos, age);
+        }
+        // 如果还没到切换时间，保持当前灯光（什么都不做）
+    }
+
+    // ========== 工具方法 ==========
+
+    private static int getTotalSeconds() {
+        Calendar cal = Calendar.getInstance();
+        return cal.get(Calendar.HOUR_OF_DAY) * 3600 +
+                cal.get(Calendar.MINUTE) * 60 +
+                cal.get(Calendar.SECOND);
+    }
+
+    private static void setBlockAge(LevelAccessor world, BlockPos pos, int age) {
+        BlockState state = world.getBlockState(pos);
+        if (state.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty prop) {
+            if (prop.getPossibleValues().contains(age)) {
+                world.setBlock(pos, state.setValue(prop, age), 3);
+            }
+        }
+    }
+
+    private static double getBlockNBTNumber(LevelAccessor world, BlockPos pos, String tag) {
+        BlockEntity blockEntity = world.getBlockEntity(pos);
+        if (blockEntity != null && blockEntity.getPersistentData().contains(tag)) {
+            return blockEntity.getPersistentData().getDouble(tag);
+        }
+        return -1;
+    }
+
+    private static void setBlockNBT(LevelAccessor world, BlockPos pos, String key, double value) {
+        if (world.isClientSide()) return;
+        BlockEntity blockEntity = world.getBlockEntity(pos);
+        if (blockEntity == null) return;
+
+        blockEntity.getPersistentData().putDouble(key, value);
+        BlockState state = world.getBlockState(pos);
+        if (world instanceof Level level) {
+            level.sendBlockUpdated(pos, state, state, 3);
+        }
+    }
 }

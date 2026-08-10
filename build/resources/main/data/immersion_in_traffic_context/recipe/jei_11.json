@@ -1,0 +1,29 @@
+{
+  "type": "immersion_in_traffic_context:jei_1",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:ethylene_bucket"
+    },
+    {
+      "item": "immersion_in_traffic_context:salt"
+    },
+    {
+      "item": "immersion_in_traffic_context:mould"
+    }
+  ],
+  "integers": [
+    1,
+    10,
+    1
+  ],
+  "outputs": [
+    {
+      "id": "immersion_in_traffic_context:plastic_ingot",
+      "count": 15
+    },
+    {
+      "id": "immersion_in_traffic_context:waste",
+      "count": 9
+    }
+  ]
+}

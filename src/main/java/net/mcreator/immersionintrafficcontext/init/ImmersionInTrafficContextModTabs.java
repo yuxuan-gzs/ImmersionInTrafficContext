@@ -75,5 +75,7 @@ public class ImmersionInTrafficContextModTabs {
 				tabData.accept(ImmersionInTrafficContextModBlocks.TRAFFIC_SIGNAL_POLE_II.get().asItem());
 				tabData.accept(ImmersionInTrafficContextModBlocks.TRAFFIC_SIGNAL_POLE_I_AND_II.get().asItem());
 				tabData.accept(ImmersionInTrafficContextModItems.SIMPLE_CIRCUIT_COMPONENTS.get());
+				tabData.accept(ImmersionInTrafficContextModBlocks.WHITE_CONCRETE_HALF_BRICK.get().asItem());
+				tabData.accept(ImmersionInTrafficContextModItems.WRENCH.get());
 			}).withSearchBar().build());
 }

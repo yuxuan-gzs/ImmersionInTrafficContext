@@ -1,0 +1,9 @@
+{
+  "parent": "immersion_in_traffic_context:custom/baishunltbanz",
+  "textures": {
+    "all": "immersion_in_traffic_context:block/texture11",
+    "particle": "immersion_in_traffic_context:block/texture11",
+    "0": "immersion_in_traffic_context:block/baishunltbanz"
+  },
+  "render_type": "solid"
+}

@@ -167,5 +167,7 @@
   "gui.immersion_in_traffic_context.itc_4.label_interface_for": "interface for",
   "gui.immersion_in_traffic_context.itc_4.label_traffic_lights1": "Traffic Lights",
   "gui.immersion_in_traffic_context.itc_4.label_open_the_configuration": "open the configuration",
-  "gui.immersion_in_traffic_context.itc_4.label_interface_hold_a_hammer": "interface, hold a hammer "
+  "gui.immersion_in_traffic_context.itc_4.label_interface_hold_a_hammer": "interface, hold a hammer ",
+  "block.immersion_in_traffic_context.white_concrete_half_brick": "White Concrete Half Brick",
+  "item.immersion_in_traffic_context.wrench": "Wrench"
 }

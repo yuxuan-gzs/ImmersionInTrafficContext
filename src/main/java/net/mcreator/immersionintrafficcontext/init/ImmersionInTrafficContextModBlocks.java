@@ -55,6 +55,7 @@ public class ImmersionInTrafficContextModBlocks {
 	public static final DeferredBlock<Block> TRAFFIC_SIGNAL_POLE_I;
 	public static final DeferredBlock<Block> TRAFFIC_SIGNAL_POLE_II;
 	public static final DeferredBlock<Block> TRAFFIC_SIGNAL_POLE_I_AND_II;
+	public static final DeferredBlock<Block> WHITE_CONCRETE_HALF_BRICK;
 	static {
 		PETROLEUM = REGISTRY.register("petroleum", PetroleumBlock::new);
 		ASPHALT_MIXING_PLANT = REGISTRY.register("asphalt_mixing_plant", AsphaltMixingPlantBlock::new);
@@ -98,6 +99,7 @@ public class ImmersionInTrafficContextModBlocks {
 		TRAFFIC_SIGNAL_POLE_I = REGISTRY.register("traffic_signal_pole_i", TrafficSignalPoleIBlock::new);
 		TRAFFIC_SIGNAL_POLE_II = REGISTRY.register("traffic_signal_pole_ii", TrafficSignalPoleIIBlock::new);
 		TRAFFIC_SIGNAL_POLE_I_AND_II = REGISTRY.register("traffic_signal_pole_i_and_ii", TrafficSignalPoleIAndIIBlock::new);
+		WHITE_CONCRETE_HALF_BRICK = REGISTRY.register("white_concrete_half_brick", WhiteConcreteHalfBrickBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

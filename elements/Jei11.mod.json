@@ -1,0 +1,28 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_1",
+    "ingredients": [
+      "CUSTOM:Ethylene.bucket",
+      "CUSTOM:Salt",
+      "CUSTOM:Mould"
+    ],
+    "integers": [
+      1,
+      10,
+      1
+    ],
+    "strings": [],
+    "recipetype": "Jei1",
+    "results": [
+      "CUSTOM:PlasticIngot",
+      "CUSTOM:Waste"
+    ],
+    "resultCounts": [
+      15,
+      9
+    ],
+    "count": 0
+  }
+}

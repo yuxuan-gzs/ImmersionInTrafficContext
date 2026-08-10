@@ -299,5 +299,119 @@
     },
     "done": true
   },
+  "immersion_in_traffic_context:i": {
+    "criteria": {
+      "i_1": "2026-08-10 17:02:47 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:extractsalt": {
+    "criteria": {
+      "extractsalt_1": "2026-08-10 17:10:36 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:pitch_black_and_viscous": {
+    "criteria": {
+      "pitch_black_and_viscous_1": "2026-08-10 17:12:56 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:hot": {
+    "criteria": {
+      "hot_0": "2026-08-10 17:13:02 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_1": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-10 17:15:58 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-10 17:15:58 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_3": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-10 17:15:58 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/safety_4": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-10 17:15:58 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:recipes/signal_barrel_1": {
+    "criteria": {
+      "has_ingredient_0": "2026-08-10 17:15:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-08-10 17:16:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "immersion_in_traffic_context:coal_hog": {
+    "criteria": {
+      "coal_hog_0": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2026-08-10 17:45:33 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

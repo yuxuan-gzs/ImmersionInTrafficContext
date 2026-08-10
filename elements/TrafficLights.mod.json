@@ -432,7 +432,6 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": "TrafficLightsShuBiaoYouJianDanJiFangKuaiShi",
-    "onBlockAdded": "TrafficLightsFangKuaiBeiFangZhiShi",
     "onTickUpdate": "TrafficLightsZaiYouXiKeGengXinShi",
     "generateFeature": false,
     "restrictionBiomes": [],

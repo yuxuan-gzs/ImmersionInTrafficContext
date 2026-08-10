@@ -12,12 +12,21 @@ public class TrafficLightDangGaiGUIDaKaiShiMeiKeFaShengProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
-			_menu.sendMenuStateUpdate(_player, 0, "lv", (getBlockNBTString(world, BlockPos.containing(x, y, z), "lv1")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
-			_menu.sendMenuStateUpdate(_player, 0, "red", (getBlockNBTString(world, BlockPos.containing(x, y, z), "red1")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
-			_menu.sendMenuStateUpdate(_player, 0, "yell", (getBlockNBTString(world, BlockPos.containing(x, y, z), "yell1")), true);
+		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "bv") == 1) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
+				_menu.sendMenuStateUpdate(_player, 0, "lv", (getBlockNBTString(world, BlockPos.containing(x, y, z), "lv1")), true);
+			if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
+				_menu.sendMenuStateUpdate(_player, 0, "red", (getBlockNBTString(world, BlockPos.containing(x, y, z), "red1")), true);
+			if (entity instanceof Player _player && _player.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu)
+				_menu.sendMenuStateUpdate(_player, 0, "yell", (getBlockNBTString(world, BlockPos.containing(x, y, z), "yell1")), true);
+		}
+	}
+
+	private static double getBlockNBTNumber(LevelAccessor world, BlockPos pos, String tag) {
+		BlockEntity blockEntity = world.getBlockEntity(pos);
+		if (blockEntity != null)
+			return blockEntity.getPersistentData().getDouble(tag);
+		return -1;
 	}
 
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
