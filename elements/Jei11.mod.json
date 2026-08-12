@@ -6,12 +6,16 @@
     "ingredients": [
       "CUSTOM:Ethylene.bucket",
       "CUSTOM:Salt",
-      "CUSTOM:Mould"
+      "CUSTOM:Mould",
+      "CUSTOM:Hammer",
+      "Items.COAL#0"
     ],
     "integers": [
       1,
       10,
-      1
+      1,
+      1,
+      10
     ],
     "strings": [],
     "recipetype": "Jei1",

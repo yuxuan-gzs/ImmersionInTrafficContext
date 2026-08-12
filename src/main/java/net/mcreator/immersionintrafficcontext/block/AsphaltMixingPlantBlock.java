@@ -1,13 +1,10 @@
 package net.mcreator.immersionintrafficcontext.block;
 
-import org.checkerframework.checker.units.qual.s;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.util.RandomSource;
-
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -25,13 +22,17 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.immersionintrafficcontext.world.inventory.A1Menu;
+import net.mcreator.immersionintrafficcontext.procedures.Xcbm1Procedure;
+import net.mcreator.immersionintrafficcontext.procedures.AsphaltMixingPlantLiangDuProcedure;
 import net.mcreator.immersionintrafficcontext.block.entity.AsphaltMixingPlantBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -39,28 +40,18 @@ import io.netty.buffer.Unpooled;
 public class AsphaltMixingPlantBlock extends Block implements SimpleWaterloggedBlock, EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-	
-	// 添加发光控制属性
-	public static final BooleanProperty LIGHT_ON = BooleanProperty.create("light_on");
+	public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 1);
 
 	public AsphaltMixingPlantBlock() {
-		super(BlockBehaviour.Properties.of()
-				.sound(SoundType.LODESTONE)
-				.strength(9f, 13f)
-				.requiresCorrectToolForDrops()
-				.instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-				.lightLevel(state -> state.getValue(LIGHT_ON) ? 15 : 0)); // 根据LIGHT_ON控制发光强度
-		
-		this.registerDefaultState(this.stateDefinition.any()
-				.setValue(FACING, Direction.NORTH)
-				.setValue(WATERLOGGED, false)
-				.setValue(LIGHT_ON, false)); // 默认不发光
+		super(BlockBehaviour.Properties.of().sound(SoundType.LODESTONE).strength(9f, 13f).lightLevel(blockstate -> (int) AsphaltMixingPlantLiangDuProcedure.execute(blockstate)).requiresCorrectToolForDrops()
+				.instrument(NoteBlockInstrument.IRON_XYLOPHONE));
+		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(AGE, 0).setValue(WATERLOGGED, false));
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(FACING, WATERLOGGED, LIGHT_ON); // 注册LIGHT_ON属性
+		builder.add(FACING, AGE, WATERLOGGED);
 	}
 
 	@Override
@@ -69,9 +60,7 @@ public class AsphaltMixingPlantBlock extends Block implements SimpleWaterloggedB
 		if (state == null)
 			return null;
 		boolean flag = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
-		return state.setValue(FACING, context.getHorizontalDirection().getOpposite())
-					.setValue(WATERLOGGED, flag)
-					.setValue(LIGHT_ON, false); // 放置时默认不发光
+		return state.setValue(FACING, context.getHorizontalDirection().getOpposite()).setValue(AGE, 0).setValue(WATERLOGGED, flag);
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -93,6 +82,19 @@ public class AsphaltMixingPlantBlock extends Block implements SimpleWaterloggedB
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 20);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		Xcbm1Procedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		world.scheduleTick(pos, this, 20);
 	}
 
 	@Override
@@ -156,53 +158,5 @@ public class AsphaltMixingPlantBlock extends Block implements SimpleWaterloggedB
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
-	}
-
-	// 添加 onPlace 方法，在方块放置时启动首次调度
-	@Override
-	public void onPlace(BlockState state, Level world, BlockPos pos, BlockState oldState, boolean isMoving) {
-		super.onPlace(state, world, pos, oldState, isMoving);
-		if (!world.isClientSide()) {
-			// 在方块放置后20刻开始执行第一次tick
-			world.scheduleTick(pos, this, 20);
-		}
-	}
-	
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		
-		// 在执行流程前，先同步一次光照状态（从NBT读取）
-		syncLightFromNBT(world, pos);
-		
-		// 调用Xcbm1Procedure流程
-		net.mcreator.immersionintrafficcontext.procedures.Xcbm1Procedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		
-		// 执行完流程后，再次同步光照状态（因为Xcbm1Procedure可能修改了NBT中的light值）
-		syncLightFromNBT(world, pos);
-		
-		// 调用AsphaltMixingPlantLiangDuProcedure获取当前光照值
-		double lightLevel = net.mcreator.immersionintrafficcontext.procedures.AsphaltMixingPlantLiangDuProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		
-		// 重新调度下一个20刻
-		world.scheduleTick(pos, this, 20);
-	}
-	
-	// 同步NBT中的light值到BlockState的LIGHT_ON属性
-	private void syncLightFromNBT(ServerLevel world, BlockPos pos) {
-		BlockEntity blockEntity = world.getBlockEntity(pos);
-		if (blockEntity != null) {
-			// 从NBT读取light值
-			double lightNBT = blockEntity.getPersistentData().getDouble("light");
-			boolean shouldBeOn = lightNBT == 1;
-			
-			BlockState currentState = world.getBlockState(pos);
-			boolean currentLightOn = currentState.getValue(LIGHT_ON);
-			
-			// 如果状态不一致，更新BlockState
-			if (currentLightOn != shouldBeOn) {
-				world.setBlock(pos, currentState.setValue(LIGHT_ON, shouldBeOn), 3);
-			}
-		}
 	}
 }

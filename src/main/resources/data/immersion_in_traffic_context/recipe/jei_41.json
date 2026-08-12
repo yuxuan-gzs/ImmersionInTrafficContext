@@ -1,0 +1,37 @@
+{
+  "type": "immersion_in_traffic_context:jei_4",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:petroleum_bucket"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "immersion_in_traffic_context:hammer"
+    }
+  ],
+  "integers": [
+    1,
+    1,
+    1
+  ],
+  "outputs": [
+    {
+      "id": "immersion_in_traffic_context:waste",
+      "count": 16
+    },
+    {
+      "id": "immersion_in_traffic_context:asphalt",
+      "count": 64
+    },
+    {
+      "id": "immersion_in_traffic_context:asphalt",
+      "count": 32
+    },
+    {
+      "id": "immersion_in_traffic_context:ethylene_bucket",
+      "count": 1
+    }
+  ]
+}

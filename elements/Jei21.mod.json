@@ -1,0 +1,30 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_2",
+    "ingredients": [
+      "Items.WATER_BUCKET",
+      "CUSTOM:Hammer",
+      "CUSTOM:Electrode",
+      "Items.COAL#0"
+    ],
+    "integers": [
+      1,
+      1,
+      1,
+      10
+    ],
+    "strings": [],
+    "recipetype": "Jei2",
+    "results": [
+      "CUSTOM:Salt",
+      "Items.BUCKET"
+    ],
+    "resultCounts": [
+      63,
+      1
+    ],
+    "count": 0
+  }
+}

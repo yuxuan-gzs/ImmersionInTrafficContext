@@ -1,61 +1,50 @@
-[10Aug2026 18:04:21.299] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.232, --assetIndex, 17, --assetsDir, C:\\Users\\29406\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.232, --fml.neoFormVersion, 20240808.144430]
-[10Aug2026 18:04:21.306] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[10Aug2026 18:04:21.309] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[10Aug2026 18:04:21.550] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[10Aug2026 18:04:21.705] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[10Aug2026 18:04:22.204] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[10Aug2026 18:04:22.397] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/29406/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[10Aug2026 18:04:22.600] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 582.66, NVIDIA Corporation
-[10Aug2026 18:04:23.300] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[10Aug2026 18:04:23.302] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[12Aug2026 14:10:18.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.232, --assetIndex, 17, --assetsDir, C:\\Users\\29406\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.232, --fml.neoFormVersion, 20240808.144430]
+[12Aug2026 14:10:18.171] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[12Aug2026 14:10:18.175] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12Aug2026 14:10:18.453] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[12Aug2026 14:10:18.645] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[12Aug2026 14:10:19.144] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[12Aug2026 14:10:19.366] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/29406/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[12Aug2026 14:10:19.621] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2 GL version 4.6.0 NVIDIA 582.66, NVIDIA Corporation
+[12Aug2026 14:10:20.342] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Aug2026 14:10:20.346] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
-		ImmersionInTrafficContext 1.21.1.4.0.0 (immersion_in_traffic_context)
+		ImmersionInTrafficContext 1.21.1.4.0.1-1beta (immersion_in_traffic_context)
 		Just Enough Items 19.21.0.247 (jei)
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.232 (neoforge)
-[10Aug2026 18:04:26.764] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.232, --gameDir, ., --assetsDir, C:\Users\29406\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[10Aug2026 18:04:29.898] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 595 milliseconds
-[10Aug2026 18:04:30.296] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[10Aug2026 18:04:39.276] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Aug2026 18:04:39.278] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Aug2026 18:04:39.282] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10Aug2026 18:04:39.284] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10Aug2026 18:04:39.285] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10Aug2026 18:04:39.522] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/29406/MCreatorWorkspaces/immersion_in_traffic_context/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[10Aug2026 18:04:39.522] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/29406/MCreatorWorkspaces/immersion_in_traffic_context/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[10Aug2026 18:04:39.595] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10Aug2026 18:04:39.611] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[10Aug2026 18:04:39.814] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[10Aug2026 18:04:40.253] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.232, for MC 1.21.1
-[10Aug2026 18:04:40.410] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[10Aug2026 18:04:40.419] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.649 ms
-[10Aug2026 18:04:42.253] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[10Aug2026 18:04:42.528] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/immersion_in_traffic_context, mod/jei
-[10Aug2026 18:04:42.771] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[10Aug2026 18:04:42.938] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[10Aug2026 18:04:43.436] [Worker-Main-6/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/i1.json
-com.google.gson.JsonParseException: Invalid rotation 14.0 found, only -45/-22.5/0/22.5/45 allowed
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
+[12Aug2026 14:10:24.330] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.232, --gameDir, ., --assetsDir, C:\Users\29406\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[12Aug2026 14:10:27.818] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 676 milliseconds
+[12Aug2026 14:10:28.110] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[12Aug2026 14:10:39.247] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Aug2026 14:10:39.251] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Aug2026 14:10:39.258] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Aug2026 14:10:39.263] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Aug2026 14:10:39.267] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Aug2026 14:10:39.521] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/29406/MCreatorWorkspaces/immersion_in_traffic_context/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[12Aug2026 14:10:39.522] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/29406/MCreatorWorkspaces/immersion_in_traffic_context/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[12Aug2026 14:10:39.587] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12Aug2026 14:10:39.600] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[12Aug2026 14:10:39.793] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[12Aug2026 14:10:40.258] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.232, for MC 1.21.1
+[12Aug2026 14:10:40.529] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[12Aug2026 14:10:40.547] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.37 ms
+[12Aug2026 14:10:42.489] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[12Aug2026 14:10:42.790] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/immersion_in_traffic_context, mod/jei
+[12Aug2026 14:10:43.042] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[12Aug2026 14:10:43.181] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[12Aug2026 14:10:43.799] [Worker-Main-10/ERROR] [net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader/]: Using missing texture, unable to load immersion_in_traffic_context:block/oip-c.webp
+java.io.IOException: Bad PNG Signature
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.PngInfo.validateHeader(PngInfo.java:38) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:142) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:111) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:101) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader.lambda$create$0(SpriteResourceLoader.java:38) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader.loadSprite(SpriteResourceLoader.java:66) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:24) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.SpriteLoader.lambda$runSpriteSuppliers$3(SpriteLoader.java:118) ~[neoforge-21.1.232.jar%23189!/:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -63,63 +52,7 @@ com.google.gson.JsonParseException: Invalid rotation 14.0 found, only -45/-22.5/
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[10Aug2026 18:04:43.436] [Worker-Main-3/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/eatcan_-_converted_-_converted.json
-com.google.gson.JsonParseException: Invalid rotation -15.0 found, only -45/-22.5/0/22.5/45 allowed
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[10Aug2026 18:04:43.435] [Worker-Main-12/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/i_huise.json
-com.google.gson.JsonParseException: Invalid rotation 14.0 found, only -45/-22.5/0/22.5/45 allowed
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[10Aug2026 18:04:43.436] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/eatcanto_-_converted_-_converted.json
+[12Aug2026 14:10:43.945] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/eatcanto_-_converted_-_converted.json
 com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.getAsString(GsonHelper.java:98) ~[neoforge-21.1.232.jar%23189!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAxis(BlockElement.java:122) ~[neoforge-21.1.232.jar%23189!/:?]
@@ -148,16 +81,27 @@ com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[10Aug2026 18:04:43.575] [Worker-Main-2/ERROR] [net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader/]: Using missing texture, unable to load immersion_in_traffic_context:block/oip-c.webp
-java.io.IOException: Bad PNG Signature
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.PngInfo.validateHeader(PngInfo.java:38) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:142) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:111) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.NativeImage.read(NativeImage.java:101) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader.lambda$create$0(SpriteResourceLoader.java:38) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader.loadSprite(SpriteResourceLoader.java:66) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.lambda$add$0(SpriteSource.java:24) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.texture.SpriteLoader.lambda$runSpriteSuppliers$3(SpriteLoader.java:118) ~[neoforge-21.1.232.jar%23189!/:?]
+[12Aug2026 14:10:43.942] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/i1.json
+com.google.gson.JsonParseException: Invalid rotation 14.0 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -165,30 +109,86 @@ java.io.IOException: Bad PNG Signature
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[10Aug2026 18:04:43.841] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture immersion_in_traffic_context:item/gfuyfyiu with size 14x14 limits mip level from 2 to 1
-[10Aug2026 18:04:43.843] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture immersion_in_traffic_context:block/x2 with size 21x21 limits mip level from 1 to 0
-[10Aug2026 18:04:46.961] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[10Aug2026 18:04:46.962] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[10Aug2026 18:04:47.166] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (High Definition Audio Device)
-[10Aug2026 18:04:47.169] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[10Aug2026 18:04:47.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x2048x2 minecraft:textures/atlas/blocks.png-atlas
-[10Aug2026 18:04:47.407] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[10Aug2026 18:04:47.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[10Aug2026 18:04:47.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[10Aug2026 18:04:47.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[10Aug2026 18:04:47.416] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[10Aug2026 18:04:47.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[10Aug2026 18:04:47.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[10Aug2026 18:04:47.418] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[10Aug2026 18:04:47.815] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[10Aug2026 18:04:47.818] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[10Aug2026 18:04:47.819] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[10Aug2026 18:04:47.819] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[10Aug2026 18:04:47.819] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[10Aug2026 18:04:47.855] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[10Aug2026 18:04:47.942] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[10Aug2026 18:04:47.942] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[10Aug2026 18:04:57.171] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe immersion_in_traffic_context:v_1
+[12Aug2026 14:10:43.943] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/i_huise.json
+com.google.gson.JsonParseException: Invalid rotation 14.0 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[12Aug2026 14:10:43.953] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model immersion_in_traffic_context:models/custom/eatcan_-_converted_-_converted.json
+com.google.gson.JsonParseException: Invalid rotation -15.0 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[neoforge-21.1.232.jar%23189!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23110!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.232.jar%23190!/:?]
+	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.232.jar%23190!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23110!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[neoforge-21.1.232.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[12Aug2026 14:10:44.050] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture immersion_in_traffic_context:item/gfuyfyiu with size 14x14 limits mip level from 2 to 1
+[12Aug2026 14:10:44.051] [Worker-Main-9/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture immersion_in_traffic_context:block/x2 with size 21x21 limits mip level from 1 to 0
+[12Aug2026 14:10:47.344] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[12Aug2026 14:10:47.347] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12Aug2026 14:10:47.492] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (High Definition Audio Device)
+[12Aug2026 14:10:47.494] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[12Aug2026 14:10:47.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[12Aug2026 14:10:47.691] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[12Aug2026 14:10:47.693] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[12Aug2026 14:10:47.694] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[12Aug2026 14:10:47.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[12Aug2026 14:10:47.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[12Aug2026 14:10:47.706] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[12Aug2026 14:10:47.707] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[12Aug2026 14:10:47.708] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12Aug2026 14:10:48.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12Aug2026 14:10:48.083] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12Aug2026 14:10:48.083] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12Aug2026 14:10:48.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[12Aug2026 14:10:48.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[12Aug2026 14:10:48.119] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12Aug2026 14:10:48.211] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[12Aug2026 14:10:48.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[12Aug2026 14:11:04.188] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe immersion_in_traffic_context:v_1
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: immersion_in_traffic_context:deleted_mod_element
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.232.jar%23189!/:?]
@@ -219,9 +219,11 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[neoforge-21.1.232.jar%23189!/:?]
 	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
 	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
-	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1220) ~[neoforge-21.1.232.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:143) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[neoforge-21.1.232.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[neoforge-21.1.232.jar%23189!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[neoforge-21.1.232.jar%23189!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.232.jar%23189!/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
@@ -242,130 +244,102 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[10Aug2026 18:04:57.206] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1338 recipes
-[10Aug2026 18:04:57.534] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1446 advancements
-[10Aug2026 18:04:58.316] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent too early, ignoring
-[10Aug2026 18:04:58.816] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[10Aug2026 18:04:58.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[10Aug2026 18:05:00.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[10Aug2026 18:05:00.831] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[10Aug2026 18:05:00.832] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[10Aug2026 18:05:01.105] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 772 ms
-[10Aug2026 18:05:01.105] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[10Aug2026 18:05:01.225] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[10Aug2026 18:05:01.225] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[10Aug2026 18:05:02.341] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent
-[10Aug2026 18:05:02.679] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b774297a] logged in with entity id 76 at (-2.0804188468786333, 69.17803599672405, 19.237147622295428)
-[10Aug2026 18:05:02.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
-[10Aug2026 18:05:03.099] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: immersion_in_traffic_context:jei_1/immersion_in_traffic_context:jei_11
-[10Aug2026 18:05:03.122] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.RecipesUpdatedEvent
-[10Aug2026 18:05:03.122] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from LISTENING to JEI_STARTED
-[10Aug2026 18:05:03.126] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[10Aug2026 18:05:03.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[10Aug2026 18:05:03.180] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft took 24.85 milliseconds
-[10Aug2026 18:05:03.181] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 28.39 ms
-[10Aug2026 18:05:03.184] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[10Aug2026 18:05:03.190] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 5.632 ms
-[10Aug2026 18:05:03.197] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[10Aug2026 18:05:03.383] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. 管理员用品
-[10Aug2026 18:05:03.443] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 243.7 milliseconds
-[10Aug2026 18:05:03.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 246.2 ms
-[10Aug2026 18:05:03.445] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[10Aug2026 18:05:03.447] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 1.753 ms
-[10Aug2026 18:05:03.449] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[10Aug2026 18:05:03.451] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 2.175 ms
-[10Aug2026 18:05:03.526] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
-[10Aug2026 18:05:03.528] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.779 ms
-[10Aug2026 18:05:03.585] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[10Aug2026 18:05:03.656] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 69.63 milliseconds
-[10Aug2026 18:05:03.684] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:internal took 21.01 milliseconds
-[10Aug2026 18:05:03.685] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 99.95 ms
-[10Aug2026 18:05:03.691] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[10Aug2026 18:05:03.706] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:minecraft took 13.59 milliseconds
-[10Aug2026 18:05:03.707] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 15.52 ms
-[10Aug2026 18:05:03.712] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[10Aug2026 18:05:03.714] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.883 ms
-[10Aug2026 18:05:03.716] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[10Aug2026 18:05:03.793] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 77.75 ms
-[10Aug2026 18:05:03.800] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[10Aug2026 18:05:03.803] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 2.225 ms
-[10Aug2026 18:05:03.807] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[10Aug2026 18:05:04.205] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 396.2 milliseconds
-[10Aug2026 18:05:04.216] [Render thread/ERROR] [mezz.jei.library.util.IngredientSupplierHelper/]: Found a broken recipe, failed to setRecipe with RecipeLayoutBuilder: net.mcreator.immersionintrafficcontext.jei_recipes.Jei1Recipe@75c4cd19
-
-java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 3
-	at java.base/java.util.Arrays$ArrayList.get(Arrays.java:4266) ~[?:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.NonNullList.get(NonNullList.java:66) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/immersion_in_traffic_context@1.21.1.4.0.0/net.mcreator.immersionintrafficcontext.jei_recipes.Jei1RecipeCategory.setRecipe(Jei1RecipeCategory.java:81) ~[%23191!/:?]
-	at TRANSFORMER/immersion_in_traffic_context@1.21.1.4.0.0/net.mcreator.immersionintrafficcontext.jei_recipes.Jei1RecipeCategory.setRecipe(Jei1RecipeCategory.java:25) ~[%23191!/:?]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.util.IngredientSupplierHelper.getIngredientSupplier(IngredientSupplierHelper.java:23) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.recipes.RecipeManagerInternal.addRecipe(RecipeManagerInternal.java:148) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.recipes.RecipeManagerInternal.addRecipes(RecipeManagerInternal.java:121) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.load.registration.RecipeRegistration.addRecipes(RecipeRegistration.java:52) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/immersion_in_traffic_context@1.21.1.4.0.0/net.mcreator.immersionintrafficcontext.init.ImmersionInTrafficContextModJeiPlugin.registerRecipes(ImmersionInTrafficContextModJeiPlugin.java:40) ~[%23191!/:?]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.load.PluginLoader.lambda$createRecipeManager$15(PluginLoader.java:202) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.load.PluginCaller.callOnPlugins(PluginCaller.java:25) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.load.PluginLoader.createRecipeManager(PluginLoader.java:202) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.library.startup.JeiStarter.start(JeiStarter.java:129) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.neoforge.startup.StartEventObserver.transitionState(StartEventObserver.java:170) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at TRANSFORMER/jei@19.21.0.247/mezz.jei.neoforge.startup.StartEventObserver.onEvent(StartEventObserver.java:120) ~[jei-1.21.1-neoforge-19.21.0.247.jar%23193!/:19.21.0.247]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23150!/:?]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23150!/:?]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23150!/:?]
-	at TRANSFORMER/neoforge@21.1.232/net.neoforged.neoforge.client.ClientHooks.onRecipesUpdated(ClientHooks.java:664) ~[neoforge-21.1.232.jar%23190!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientPacketListener.handleUpdateRecipes(ClientPacketListener.java:1506) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:28) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:12) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:26) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1155) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[neoforge-21.1.232.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.232.jar%23189!/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
-	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[10Aug2026 18:05:04.222] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: immersion_in_traffic_context:jei_plugin took 15.95 milliseconds
-[10Aug2026 18:05:04.367] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 143.2 milliseconds
-[10Aug2026 18:05:04.368] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 560.0 ms
-[10Aug2026 18:05:04.388] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[10Aug2026 18:05:04.398] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 9.036 ms
-[10Aug2026 18:05:04.417] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[10Aug2026 18:05:04.434] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[10Aug2026 18:05:04.455] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 20.75 ms
-[10Aug2026 18:05:04.464] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[10Aug2026 18:05:04.472] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[10Aug2026 18:05:04.474] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[10Aug2026 18:05:04.566] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 92.01 ms
-[10Aug2026 18:05:04.567] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[10Aug2026 18:05:04.694] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1751 ingredients
-[10Aug2026 18:05:05.138] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1751 ingredients
-[10Aug2026 18:05:05.140] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 573.1 ms
-[10Aug2026 18:05:05.391] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 924.5 milliseconds
-[10Aug2026 18:05:05.392] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 927.3 ms
-[10Aug2026 18:05:05.396] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 978.4 ms
-[10Aug2026 18:05:05.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[10Aug2026 18:05:05.399] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.606 ms
-[10Aug2026 18:05:05.399] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.273 s
-[10Aug2026 18:05:05.438] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 89 advancements
-[10Aug2026 18:05:21.308] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[10Aug2026 18:05:21.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[10Aug2026 18:05:21.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[10Aug2026 18:05:21.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[12Aug2026 14:11:04.231] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1342 recipes
+[12Aug2026 14:11:04.634] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1447 advancements
+[12Aug2026 14:11:05.462] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent too early, ignoring
+[12Aug2026 14:11:05.594] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[12Aug2026 14:11:05.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Aug2026 14:11:07.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Aug2026 14:11:07.965] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[12Aug2026 14:11:07.965] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[12Aug2026 14:11:08.336] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12Aug2026 14:11:08.346] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 938 ms
+[12Aug2026 14:11:08.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[12Aug2026 14:11:08.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[12Aug2026 14:11:09.603] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent
+[12Aug2026 14:11:09.957] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:777eca62] logged in with entity id 56 at (-15.424585627506522, 71.0, 22.58083642928426)
+[12Aug2026 14:11:10.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[12Aug2026 14:11:10.416] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: immersion_in_traffic_context:jei_1/immersion_in_traffic_context:jei_11
+[12Aug2026 14:11:10.417] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: immersion_in_traffic_context:jei_3/immersion_in_traffic_context:jei_31
+[12Aug2026 14:11:10.417] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: immersion_in_traffic_context:jei_2/immersion_in_traffic_context:jei_21
+[12Aug2026 14:11:10.418] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: immersion_in_traffic_context:jei_4/immersion_in_traffic_context:jei_41
+[12Aug2026 14:11:10.440] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.RecipesUpdatedEvent
+[12Aug2026 14:11:10.441] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from LISTENING to JEI_STARTED
+[12Aug2026 14:11:10.444] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[12Aug2026 14:11:10.474] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[12Aug2026 14:11:10.498] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft took 21.41 milliseconds
+[12Aug2026 14:11:10.499] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 24.33 ms
+[12Aug2026 14:11:10.500] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[12Aug2026 14:11:10.507] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 5.943 ms
+[12Aug2026 14:11:10.514] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[12Aug2026 14:11:10.711] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. 管理员用品
+[12Aug2026 14:11:10.775] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 260.1 milliseconds
+[12Aug2026 14:11:10.777] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 262.7 ms
+[12Aug2026 14:11:10.778] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[12Aug2026 14:11:10.781] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 1.833 ms
+[12Aug2026 14:11:10.782] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[12Aug2026 14:11:10.784] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 2.259 ms
+[12Aug2026 14:11:10.869] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[12Aug2026 14:11:10.875] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 2.943 ms
+[12Aug2026 14:11:10.930] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[12Aug2026 14:11:10.999] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 66.05 milliseconds
+[12Aug2026 14:11:11.025] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:internal took 15.79 milliseconds
+[12Aug2026 14:11:11.026] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 94.21 ms
+[12Aug2026 14:11:11.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[12Aug2026 14:11:11.042] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 12.17 ms
+[12Aug2026 14:11:11.048] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[12Aug2026 14:11:11.053] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 4.980 ms
+[12Aug2026 14:11:11.057] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[12Aug2026 14:11:11.124] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 65.99 ms
+[12Aug2026 14:11:11.131] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[12Aug2026 14:11:11.133] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 2.038 ms
+[12Aug2026 14:11:11.139] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[12Aug2026 14:11:11.608] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 467.5 milliseconds
+[12Aug2026 14:11:11.839] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 226.0 milliseconds
+[12Aug2026 14:11:11.840] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 701.0 ms
+[12Aug2026 14:11:11.869] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[12Aug2026 14:11:11.886] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:minecraft took 13.93 milliseconds
+[12Aug2026 14:11:11.888] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 18.09 ms
+[12Aug2026 14:11:11.926] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[12Aug2026 14:11:11.938] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[12Aug2026 14:11:11.967] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui took 19.04 milliseconds
+[12Aug2026 14:11:11.968] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 29.95 ms
+[12Aug2026 14:11:11.982] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[12Aug2026 14:11:11.990] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[12Aug2026 14:11:11.993] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[12Aug2026 14:11:12.095] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 100.7 ms
+[12Aug2026 14:11:12.097] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[12Aug2026 14:11:12.237] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1751 ingredients
+[12Aug2026 14:11:12.701] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1751 ingredients
+[12Aug2026 14:11:12.706] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 608.2 ms
+[12Aug2026 14:11:13.014] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 1.029 seconds
+[12Aug2026 14:11:13.015] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.032 s
+[12Aug2026 14:11:13.019] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.093 s
+[12Aug2026 14:11:13.020] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[12Aug2026 14:11:13.023] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.926 ms
+[12Aug2026 14:11:13.023] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.578 s
+[12Aug2026 14:11:13.065] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 90 advancements
+[12Aug2026 14:12:32.740] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[12Aug2026 14:12:32.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[12Aug2026 14:12:32.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[12Aug2026 14:12:32.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[12Aug2026 14:12:33.289] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[12Aug2026 14:12:33.290] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to LISTENING
+[12Aug2026 14:12:33.290] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[12Aug2026 14:12:33.290] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[12Aug2026 14:12:33.290] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[12Aug2026 14:12:33.296] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 5.310 ms
+[12Aug2026 14:12:33.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[12Aug2026 14:12:33.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[12Aug2026 14:12:33.382] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[12Aug2026 14:12:33.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Aug2026 14:12:33.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Aug2026 14:12:33.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Aug2026 14:12:33.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[12Aug2026 14:12:33.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[12Aug2026 14:12:33.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[12Aug2026 14:12:33.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[12Aug2026 14:12:33.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Aug2026 14:12:33.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Aug2026 14:12:33.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Aug2026 14:12:34.195] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

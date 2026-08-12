@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="immersion_in_traffic_context"
-version="1.21.1.4.0.0"
+version="1.21.1.4.0.1"
 displayName="ImmersionInTrafficContext"
 displayURL="https://center.mcmod.cn/1095763/#/home/"
 logoFile="logo.png"

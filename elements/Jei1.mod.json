@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "jeirecipetype",
   "definition": {
-    "textureSelector": "itcit.png",
+    "textureSelector": "jei_itcit.png",
     "width": 176,
-    "height": 166,
+    "height": 76,
     "icon": "CUSTOM:PlasticIngot",
     "craftingtables": [
       "CUSTOM:IndustrialFurnace"
@@ -13,49 +13,55 @@
     "enableIntList": true,
     "enableStringList": false,
     "disableJeiBorder": false,
-    "title": "Plastic Ingot",
+    "title": "Industrial Furnace",
     "slotList": [
       {
         "type": "INPUT",
         "x": 6,
         "y": 6,
-        "slotid": 1
+        "slotid": 0
       },
       {
         "type": "INPUT",
         "x": 23,
         "y": 6,
-        "slotid": 10
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 89,
+        "y": 25,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 59,
+        "y": 6,
+        "slotid": 3
       },
       {
         "type": "INPUT",
         "x": 67,
         "y": 50,
+        "slotid": 4
+      },
+      {
+        "type": "OUTPUT",
+        "x": 119,
+        "y": 6,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 136,
+        "y": 6,
         "slotid": 1
-      },
-      {
-        "type": "OUTPUT",
-        "x": 199,
-        "y": 6,
-        "slotid": 15
-      },
-      {
-        "type": "INPUT",
-        "x": 136,
-        "y": 6,
-        "slotid": 9
-      },
-      {
-        "type": "OUTPUT",
-        "x": 136,
-        "y": 6,
-        "slotid": 9
       }
     ],
     "components": [],
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
+      "sx": 16,
+      "sy": 16,
       "ox": 11,
       "oy": 15,
       "snapOnGrid": false

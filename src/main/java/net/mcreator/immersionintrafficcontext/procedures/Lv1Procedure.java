@@ -52,6 +52,15 @@ public class Lv1Procedure {
 						}
 					}.convert((entity instanceof Player _entity9 && _entity9.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu9) ? _menu9.getMenuState(0, "yell", "") : ""));
 					_blockEntity.getPersistentData().putString("yell1", ((entity instanceof Player _entity11 && _entity11.containerMenu instanceof ImmersionInTrafficContextModMenus.MenuAccessor _menu11) ? _menu11.getMenuState(0, "yell", "") : ""));
+					_blockEntity.getPersistentData().putDouble("tagName_lv", 0);
+					_blockEntity.getPersistentData().putDouble("tagName_red", 0);
+					_blockEntity.getPersistentData().putDouble("tagName_yell", 0);
+					_blockEntity.getPersistentData().putDouble("age_y_r", 0);
+					_blockEntity.getPersistentData().putDouble("age_l_y", 0);
+					_blockEntity.getPersistentData().putDouble("age_r_l", 0);
+					_blockEntity.getPersistentData().putDouble("min_lv_time", 0);
+					_blockEntity.getPersistentData().putDouble("min_red_time", 0);
+					_blockEntity.getPersistentData().putDouble("min_yell_time", 0);
 					_blockEntity.getPersistentData().putDouble("time_lv", Calendar.getInstance().get(Calendar.SECOND));
 				}
 				if (world instanceof Level _level)

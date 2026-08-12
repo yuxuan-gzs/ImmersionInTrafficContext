@@ -24,7 +24,6 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": "Xcbm",
           "x": 153,
           "y": 54,
           "locked": false
@@ -53,7 +52,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "Items.COAL#0"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -63,7 +62,6 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": "Xcbm",
           "x": 153,
           "y": 85,
           "locked": false
@@ -145,7 +143,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Hammer"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -155,7 +153,6 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": "Xcbm",
           "x": 199,
           "y": 75,
           "locked": false
@@ -916,30 +913,6 @@
           "displayCondition": "AA68",
           "x": 174,
           "y": 58,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "mfk.png",
-          "use1Xscale": true,
-          "x": 176,
-          "y": 44,
-          "locked": false
-        }
-      },
-      {
-        "type": "tooltip",
-        "data": {
-          "name": "tooltip_when_making_do_not_exit_this_pa",
-          "text": {
-            "fixedValue": "When making, do not exit this page."
-          },
-          "width": 24,
-          "height": 24,
-          "x": 172,
-          "y": 41,
           "locked": false
         }
       }

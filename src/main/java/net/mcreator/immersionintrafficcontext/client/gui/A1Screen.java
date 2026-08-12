@@ -91,7 +91,6 @@ public class A1Screen extends AbstractContainerScreen<A1Menu> implements Immersi
 	private static final ResourceLocation IMAGE_68 = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/m66.png");
 	private static final ResourceLocation IMAGE_69 = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/m67.png");
 	private static final ResourceLocation IMAGE_70 = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/m68.png");
-	private static final ResourceLocation IMAGE_71 = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/mfk.png");
 
 	public A1Screen(A1Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -113,13 +112,7 @@ public class A1Screen extends AbstractContainerScreen<A1Menu> implements Immersi
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		boolean customTooltipShown = false;
-		if (mouseX > leftPos + 46 && mouseX < leftPos + 70 && mouseY > topPos + 4 && mouseY < topPos + 28) {
-			guiGraphics.renderTooltip(font, Component.translatable("gui.immersion_in_traffic_context.a_1.tooltip_when_making_do_not_exit_this_pa"), mouseX, mouseY);
-			customTooltipShown = true;
-		}
-		if (!customTooltipShown)
-			this.renderTooltip(guiGraphics, mouseX, mouseY);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
@@ -335,7 +328,6 @@ public class A1Screen extends AbstractContainerScreen<A1Menu> implements Immersi
 		if (AA68Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(IMAGE_70, this.leftPos + 48, this.topPos + 21, 0, 0, 70, 16, 70, 16);
 		}
-		guiGraphics.blit(IMAGE_71, this.leftPos + 50, this.topPos + 7, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 

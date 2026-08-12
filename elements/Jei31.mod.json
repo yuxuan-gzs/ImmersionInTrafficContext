@@ -1,0 +1,28 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_3",
+    "ingredients": [
+      "CUSTOM:Asphalt",
+      "CUSTOM:Hammer",
+      "Items.BUCKET",
+      "Items.COAL#0"
+    ],
+    "integers": [
+      9,
+      1,
+      1,
+      10
+    ],
+    "strings": [],
+    "recipetype": "Jei3",
+    "results": [
+      "CUSTOM:LiquidBitumen.bucket"
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

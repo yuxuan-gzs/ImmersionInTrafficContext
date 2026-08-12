@@ -1,0 +1,33 @@
+{
+  "type": "immersion_in_traffic_context:jei_2",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    {
+      "item": "immersion_in_traffic_context:electrode"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "integers": [
+    1,
+    1,
+    1,
+    10
+  ],
+  "outputs": [
+    {
+      "id": "immersion_in_traffic_context:salt",
+      "count": 63
+    },
+    {
+      "id": "minecraft:bucket",
+      "count": 1
+    }
+  ]
+}

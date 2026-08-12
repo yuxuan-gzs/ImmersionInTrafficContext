@@ -1,6 +1,5 @@
 package net.mcreator.immersionintrafficcontext.world.inventory;
 
-import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.items.wrapper.InvWrapper;
 import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
@@ -11,6 +10,7 @@ import net.neoforged.neoforge.capabilities.Capabilities;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.ContainerLevelAccess;
@@ -22,8 +22,8 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.immersionintrafficcontext.network.A1SlotMessage;
 import net.mcreator.immersionintrafficcontext.init.ImmersionInTrafficContextModMenus;
+import net.mcreator.immersionintrafficcontext.init.ImmersionInTrafficContextModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -34,7 +34,7 @@ public class A1Menu extends AbstractContainerMenu implements ImmersionInTrafficC
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 81)
+			if (!this.containsKey(key) && this.size() >= 79)
 				return null;
 			return super.put(key, value);
 		}
@@ -95,12 +95,6 @@ public class A1Menu extends AbstractContainerMenu implements ImmersionInTrafficC
 			private final int slot = 0;
 			private int x = A1Menu.this.x;
 			private int y = A1Menu.this.y;
-
-			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(0, 0, 0);
-			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 50, 39) {
 			private final int slot = 1;
@@ -113,9 +107,8 @@ public class A1Menu extends AbstractContainerMenu implements ImmersionInTrafficC
 			private int y = A1Menu.this.y;
 
 			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(2, 0, 0);
+			public boolean mayPlace(ItemStack stack) {
+				return Items.COAL == stack.getItem();
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 126, 23) {
@@ -164,9 +157,8 @@ public class A1Menu extends AbstractContainerMenu implements ImmersionInTrafficC
 			private int y = A1Menu.this.y;
 
 			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(6, 0, 0);
+			public boolean mayPlace(ItemStack stack) {
+				return ImmersionInTrafficContextModItems.HAMMER.get() == stack.getItem();
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -299,13 +291,6 @@ public class A1Menu extends AbstractContainerMenu implements ImmersionInTrafficC
 						ihm.setStackInSlot(i, ItemStack.EMPTY);
 				}
 			}
-		}
-	}
-
-	private void slotChanged(int slotid, int ctype, int meta) {
-		if (this.world != null && this.world.isClientSide()) {
-			PacketDistributor.sendToServer(new A1SlotMessage(slotid, x, y, z, ctype, meta));
-			A1SlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

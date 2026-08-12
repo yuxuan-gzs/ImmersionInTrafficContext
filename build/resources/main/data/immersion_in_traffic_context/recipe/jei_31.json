@@ -1,0 +1,29 @@
+{
+  "type": "immersion_in_traffic_context:jei_3",
+  "ingredients": [
+    {
+      "item": "immersion_in_traffic_context:asphalt"
+    },
+    {
+      "item": "immersion_in_traffic_context:hammer"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "integers": [
+    9,
+    1,
+    1,
+    10
+  ],
+  "outputs": [
+    {
+      "id": "immersion_in_traffic_context:liquid_bitumen_bucket",
+      "count": 1
+    }
+  ]
+}

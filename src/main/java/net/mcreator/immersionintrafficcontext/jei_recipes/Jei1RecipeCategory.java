@@ -24,13 +24,13 @@ import java.util.ArrayList;
 
 public class Jei1RecipeCategory implements IRecipeCategory<Jei1Recipe> {
 	public final static ResourceLocation UID = ResourceLocation.parse("immersion_in_traffic_context:jei_1");
-	public final static ResourceLocation TEXTURE = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/itcit.png");
+	public final static ResourceLocation TEXTURE = ResourceLocation.parse("immersion_in_traffic_context:textures/screens/jei_itcit.png");
 	private final IDrawable background;
 	private final IDrawable icon;
 	private final Minecraft mc = Minecraft.getInstance();
 
 	public Jei1RecipeCategory(IGuiHelper helper) {
-		this.background = helper.createDrawable(TEXTURE, 0, 0, 176, 166);
+		this.background = helper.createDrawable(TEXTURE, 0, 0, 176, 76);
 		this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(ImmersionInTrafficContextModItems.PLASTIC_INGOT.get()));
 	}
 
@@ -41,7 +41,7 @@ public class Jei1RecipeCategory implements IRecipeCategory<Jei1Recipe> {
 
 	@Override
 	public Component getTitle() {
-		return Component.literal("Plastic Ingot");
+		return Component.literal("Industrial Furnace");
 	}
 
 	@Override
@@ -74,22 +74,26 @@ public class Jei1RecipeCategory implements IRecipeCategory<Jei1Recipe> {
 			actualOutputs.set(i, recipeOutputs.get(i));
 		}
 		stacks.clear();
-		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(1).getItems()))
-			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(1)));
+		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(0).getItems()))
+			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(0)));
 		builder.addSlot(RecipeIngredientRole.INPUT, 6, 6).addItemStacks(stacks);
 		stacks.clear();
-		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(10).getItems()))
-			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(10)));
-		builder.addSlot(RecipeIngredientRole.INPUT, 23, 6).addItemStacks(stacks);
-		stacks.clear();
 		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(1).getItems()))
 			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(1)));
-		builder.addSlot(RecipeIngredientRole.INPUT, 67, 50).addItemStacks(stacks);
-		builder.addSlot(RecipeIngredientRole.OUTPUT, 199, 6).addItemStack(actualOutputs.get(15));
+		builder.addSlot(RecipeIngredientRole.INPUT, 23, 6).addItemStacks(stacks);
 		stacks.clear();
-		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(9).getItems()))
-			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(9)));
-		builder.addSlot(RecipeIngredientRole.INPUT, 136, 6).addItemStacks(stacks);
-		builder.addSlot(RecipeIngredientRole.OUTPUT, 136, 6).addItemStack(actualOutputs.get(9));
+		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(2).getItems()))
+			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(2)));
+		builder.addSlot(RecipeIngredientRole.INPUT, 89, 25).addItemStacks(stacks);
+		stacks.clear();
+		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(3).getItems()))
+			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(3)));
+		builder.addSlot(RecipeIngredientRole.INPUT, 59, 6).addItemStacks(stacks);
+		stacks.clear();
+		for (ItemStack item : (List<ItemStack>) List.of(recipe.getIngredients().get(4).getItems()))
+			stacks.add(new ItemStack(item.getItem(), recipe.integers().get(4)));
+		builder.addSlot(RecipeIngredientRole.INPUT, 67, 50).addItemStacks(stacks);
+		builder.addSlot(RecipeIngredientRole.OUTPUT, 119, 6).addItemStack(actualOutputs.get(0));
+		builder.addSlot(RecipeIngredientRole.OUTPUT, 136, 6).addItemStack(actualOutputs.get(1));
 	}
 }

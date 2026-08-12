@@ -37,8 +37,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/immersionintrafficcontext/client/gui/A1Screen.java",
-          "src/main/java/net/mcreator/immersionintrafficcontext/world/inventory/A1Menu.java",
-          "src/main/java/net/mcreator/immersionintrafficcontext/network/A1SlotMessage.java"
+          "src/main/java/net/mcreator/immersionintrafficcontext/world/inventory/A1Menu.java"
         ]
       }
     },
@@ -85,12 +84,14 @@
       "name": "AsphaltMixingPlant",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "asphalt_mixing_plant",
       "metadata": {
         "files": [
           "src/main/resources/data/immersion_in_traffic_context/loot_table/blocks/asphalt_mixing_plant.json",
           "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_mixing_plant.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_mixing_plant_0.json",
+          "src/main/resources/assets/immersion_in_traffic_context/models/block/asphalt_mixing_plant_1.json",
           "src/main/resources/assets/immersion_in_traffic_context/blockstates/asphalt_mixing_plant.json",
           "src/main/resources/assets/immersion_in_traffic_context/models/item/asphalt_mixing_plant.json",
           "src/main/java/net/mcreator/immersionintrafficcontext/block/entity/AsphaltMixingPlantBlockEntity.java",
@@ -5862,37 +5863,6 @@
       "path": "~/Scallion"
     },
     {
-      "name": "AsphaltMixingPlantLiangDu",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "asphalt_mixing_plant_liang_du",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "return_type": "number",
-        "files": [
-          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/AsphaltMixingPlantLiangDuProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "TrafficLights",
       "type": "block",
       "compiles": true,
@@ -6813,6 +6783,119 @@
         ]
       },
       "path": "~/Traffic light"
+    },
+    {
+      "name": "Jei2",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei2RecipeCategory.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei2Recipe.java"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "Jei21",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/jei_21.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "Jei3",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei3RecipeCategory.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei3Recipe.java"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "Jei31",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_31",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/jei_31.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "AsphaltMixingPlantLiangDu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_mixing_plant_liang_du",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/procedures/AsphaltMixingPlantLiangDuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Jei4",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei4Recipe.java",
+          "src/main/java/net/mcreator/immersionintrafficcontext/jei_recipes/Jei4RecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "Jei41",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_41",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/jei_41.json"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "Book",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/immersion_in_traffic_context/recipe/book.json",
+          "src/main/resources/data/immersion_in_traffic_context/advancement/recipes/book.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -6838,6 +6921,11 @@
       "~Hammer@CUSTOM:Hammer"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~AsphaltMixingPlant@CUSTOM:AsphaltMixingPlant",
+      "~InclinedWhiteConcreteHalfBrick@CUSTOM:InclinedWhiteConcreteHalfBrick",
+      "~WhiteConcreteStonePillar@CUSTOM:WhiteConcreteStonePillar",
+      "~GrayConcreteStonePillar@CUSTOM:GrayConcreteStonePillar",
+      "~InclinedGrayConcreteHalfBrick@CUSTOM:InclinedGrayConcreteHalfBrick",
       "~TrafficLights@CUSTOM:TrafficLights",
       "~IndustrialFurnace@CUSTOM:IndustrialFurnace",
       "~WhiteConcreteHalfBrick@CUSTOM:WhiteConcreteHalfBrick",
@@ -6846,10 +6934,6 @@
       "~TrafficSignalPoleI@CUSTOM:TrafficSignalPoleI",
       "~IndustrialFurnaceTank@CUSTOM:IndustrialFurnaceTank",
       "~IndustrialFurnaceBrick@CUSTOM:IndustrialFurnaceBrick",
-      "~InclinedGrayConcreteHalfBrick@CUSTOM:InclinedGrayConcreteHalfBrick",
-      "~GrayConcreteStonePillar@CUSTOM:GrayConcreteStonePillar",
-      "~WhiteConcreteStonePillar@CUSTOM:WhiteConcreteStonePillar",
-      "~InclinedWhiteConcreteHalfBrick@CUSTOM:InclinedWhiteConcreteHalfBrick",
       "~UTurnAsphaltPavementBlock@CUSTOM:UTurnAsphaltPavementBlock",
       "~StraightAheadAndRightTurnAsphaltPavementBlock@CUSTOM:StraightAheadAndRightTurnAsphaltPavementBlock",
       "~StraightAheadAndLeftTurnAsphaltPavementBlock@CUSTOM:StraightAheadAndLeftTurnAsphaltPavementBlock",
@@ -6869,14 +6953,15 @@
       "~RoughAsphaltBlock@CUSTOM:RoughAsphaltBlock"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~AsphaltMixingPlant@CUSTOM:AsphaltMixingPlant",
+      "~WhiteConcreteStonePillar@CUSTOM:WhiteConcreteStonePillar",
+      "~GrayConcreteStonePillar@CUSTOM:GrayConcreteStonePillar",
       "~TrafficLights@CUSTOM:TrafficLights",
       "~IndustrialFurnace@CUSTOM:IndustrialFurnace",
       "~TrafficSignalPoleIAndII@CUSTOM:TrafficSignalPoleIAndII",
       "~TrafficSignalPoleII@CUSTOM:TrafficSignalPoleII",
       "~TrafficSignalPoleI@CUSTOM:TrafficSignalPoleI",
       "~IndustrialFurnaceBrick@CUSTOM:IndustrialFurnaceBrick",
-      "~GrayConcreteStonePillar@CUSTOM:GrayConcreteStonePillar",
-      "~WhiteConcreteStonePillar@CUSTOM:WhiteConcreteStonePillar",
       "~UTurnAsphaltPavementBlock@CUSTOM:UTurnAsphaltPavementBlock",
       "~StraightAheadAndRightTurnAsphaltPavementBlock@CUSTOM:StraightAheadAndRightTurnAsphaltPavementBlock",
       "~StraightAheadAndLeftTurnAsphaltPavementBlock@CUSTOM:StraightAheadAndLeftTurnAsphaltPavementBlock",
@@ -6896,9 +6981,9 @@
       "~RoughAsphaltBlock@CUSTOM:RoughAsphaltBlock"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~InclinedGrayConcreteHalfBrick@CUSTOM:InclinedGrayConcreteHalfBrick",
       "~WhiteConcreteHalfBrick@CUSTOM:WhiteConcreteHalfBrick",
-      "~IndustrialFurnaceTank@CUSTOM:IndustrialFurnaceTank",
-      "~InclinedGrayConcreteHalfBrick@CUSTOM:InclinedGrayConcreteHalfBrick"
+      "~IndustrialFurnaceTank@CUSTOM:IndustrialFurnaceTank"
     ],
     "ITEMS:minecraft:head_armor": [
       "~Safety@CUSTOM:Safety.helmet"
@@ -7403,7 +7488,7 @@
   "workspaceSettings": {
     "modid": "immersion_in_traffic_context",
     "modName": "ImmersionInTrafficContext",
-    "version": "1.21.1.4.0.0",
+    "version": "1.21.1.4.0.1",
     "description": "Adds customizable barriers \u0026 asphalt roads (+30% speed!). Design unique streets, works with/without Ultimate Car Mod. Survival recipes included. Build realistic traffic systems!",
     "author": "yuxuan",
     "websiteURL": "https://center.mcmod.cn/1095763/#/home/",

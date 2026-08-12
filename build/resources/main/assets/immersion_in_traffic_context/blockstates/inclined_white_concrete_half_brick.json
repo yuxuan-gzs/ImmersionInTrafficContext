@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "immersion_in_traffic_context:block/inclined_white_concrete_half_brick"
+    },
+    "facing=east": {
+      "model": "immersion_in_traffic_context:block/inclined_white_concrete_half_brick",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion_in_traffic_context:block/inclined_white_concrete_half_brick",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion_in_traffic_context:block/inclined_white_concrete_half_brick",
+      "y": 270
     }
   }
 }

@@ -5,6 +5,7 @@ import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.common.extensions.ILevelExtension;
 import net.neoforged.neoforge.capabilities.Capabilities;
 
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
@@ -22,7 +23,9 @@ public class Xcbm1Procedure {
 				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 6).copy()).getItem() == ImmersionInTrafficContextModItems.HAMMER.get() && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 6).getCount() == 1
 				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Items.COAL && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() >= 1
 				&& getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time") < 68 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).getCount() <= 1 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() <= 1
-				&& itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 32 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0) {
+				&& itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() <= 32 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 8).getCount() == 0
+				&& itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).getCount() < 1 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() < 1
+				&& itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() < 1 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() <= 48) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -34,74 +37,77 @@ public class Xcbm1Procedure {
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
-		} else if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time") > 67) {
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				int _slotid = 0;
-				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
-				_stk.shrink(1);
-				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			{
+				int _value = 1;
+				BlockPos _pos = BlockPos.containing(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				int _slotid = 2;
-				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
-				_stk.shrink(6);
-				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
-			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ETHYLENE_BUCKET.get()).copy();
-				_setstack.setCount(1);
-				_itemHandlerModifiable.setStackInSlot(8, _setstack);
-			}
-			if (world instanceof ILevelExtension _ext && world instanceof ServerLevel _serverLevel && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				int _slotid = 6;
-				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
-				_stk.hurtAndBreak(300, _serverLevel, null, _stkprov -> {
-				});
-				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
-			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.WASTE.get()).copy();
-				_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).getCount() + 16);
-				_itemHandlerModifiable.setStackInSlot(1, _setstack);
-			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
-				_setstack.setCount(64);
-				_itemHandlerModifiable.setStackInSlot(3, _setstack);
-			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
-				_setstack.setCount(64);
-				_itemHandlerModifiable.setStackInSlot(4, _setstack);
-			}
-			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
-				_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() + 32);
-				_itemHandlerModifiable.setStackInSlot(7, _setstack);
-			}
-			if (!world.isClientSide()) {
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null) {
-					_blockEntity.getPersistentData().putDouble("time", 0);
-					_blockEntity.getPersistentData().putDouble("light", 0);
+			if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "time") > 67) {
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					int _slotid = 0;
+					ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+					_stk.shrink(1);
+					_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
 				}
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-		} else if (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 3).getCount() >= 1 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() >= 1
-				&& itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() >= 1 && itemFromBlockInventory(world, BlockPos.containing(x, y, z), 4).getCount() > 48) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null) {
-					_blockEntity.getPersistentData().putDouble("time", 0);
-					_blockEntity.getPersistentData().putDouble("light", 0);
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					int _slotid = 2;
+					ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+					_stk.shrink(6);
+					_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
 				}
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ETHYLENE_BUCKET.get()).copy();
+					_setstack.setCount(1);
+					_itemHandlerModifiable.setStackInSlot(8, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && world instanceof ServerLevel _serverLevel
+						&& _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					int _slotid = 6;
+					ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+					_stk.hurtAndBreak(300, _serverLevel, null, _stkprov -> {
+					});
+					_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.WASTE.get()).copy();
+					_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).getCount() + 16);
+					_itemHandlerModifiable.setStackInSlot(1, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
+					_setstack.setCount(64);
+					_itemHandlerModifiable.setStackInSlot(3, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
+					_setstack.setCount(64);
+					_itemHandlerModifiable.setStackInSlot(4, _setstack);
+				}
+				if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+					ItemStack _setstack = new ItemStack(ImmersionInTrafficContextModItems.ASPHALT.get()).copy();
+					_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 7).getCount() + 32);
+					_itemHandlerModifiable.setStackInSlot(7, _setstack);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null) {
+						_blockEntity.getPersistentData().putDouble("time", 0);
+						_blockEntity.getPersistentData().putDouble("light", 0);
+					}
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				{
+					int _value = 0;
+					BlockPos _pos = BlockPos.containing(x, y, z);
+					BlockState _bs = world.getBlockState(_pos);
+					if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+				}
 			}
 		} else {
 			if (!world.isClientSide()) {
@@ -114,6 +120,13 @@ public class Xcbm1Procedure {
 				}
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
+			{
+				int _value = 0;
+				BlockPos _pos = BlockPos.containing(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 			}
 		}
 	}

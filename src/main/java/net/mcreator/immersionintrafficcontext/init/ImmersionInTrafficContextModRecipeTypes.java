@@ -11,6 +11,9 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.immersionintrafficcontext.jei_recipes.Jei4Recipe;
+import net.mcreator.immersionintrafficcontext.jei_recipes.Jei3Recipe;
+import net.mcreator.immersionintrafficcontext.jei_recipes.Jei2Recipe;
 import net.mcreator.immersionintrafficcontext.jei_recipes.Jei1Recipe;
 
 @EventBusSubscriber
@@ -26,6 +29,12 @@ public class ImmersionInTrafficContextModRecipeTypes {
 			SERIALIZERS.register(bus);
 			RECIPE_TYPES.register("jei_1", () -> Jei1Recipe.Type.INSTANCE);
 			SERIALIZERS.register("jei_1", () -> Jei1Recipe.Serializer.INSTANCE);
+			RECIPE_TYPES.register("jei_2", () -> Jei2Recipe.Type.INSTANCE);
+			SERIALIZERS.register("jei_2", () -> Jei2Recipe.Serializer.INSTANCE);
+			RECIPE_TYPES.register("jei_3", () -> Jei3Recipe.Type.INSTANCE);
+			SERIALIZERS.register("jei_3", () -> Jei3Recipe.Serializer.INSTANCE);
+			RECIPE_TYPES.register("jei_4", () -> Jei4Recipe.Type.INSTANCE);
+			SERIALIZERS.register("jei_4", () -> Jei4Recipe.Serializer.INSTANCE);
 		});
 	}
 }

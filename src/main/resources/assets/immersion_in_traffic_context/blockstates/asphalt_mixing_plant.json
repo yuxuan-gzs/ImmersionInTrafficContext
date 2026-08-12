@@ -1,18 +1,33 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant"
+    "facing=north,age=0": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_0"
     },
-    "facing=east": {
-      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant",
+    "facing=north,age=1": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_1"
+    },
+    "facing=east,age=0": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_0",
       "y": 90
     },
-    "facing=south": {
-      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant",
+    "facing=east,age=1": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_1",
+      "y": 90
+    },
+    "facing=south,age=0": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_0",
       "y": 180
     },
-    "facing=west": {
-      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant",
+    "facing=south,age=1": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_1",
+      "y": 180
+    },
+    "facing=west,age=0": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_0",
+      "y": 270
+    },
+    "facing=west,age=1": {
+      "model": "immersion_in_traffic_context:block/asphalt_mixing_plant_1",
       "y": 270
     }
   }

@@ -1,0 +1,76 @@
+{
+  "_fv": 89,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jei_a1.png",
+    "width": 176,
+    "height": 76,
+    "icon": "CUSTOM:Asphalt",
+    "craftingtables": [
+      "CUSTOM:AsphaltMixingPlant"
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": true,
+    "enableStringList": false,
+    "disableJeiBorder": false,
+    "title": "Asphalt Mixing Plant",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 28,
+        "y": 18,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 28,
+        "y": 49,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 74,
+        "y": 39,
+        "slotid": 2
+      },
+      {
+        "type": "OUTPUT",
+        "x": 50,
+        "y": 39,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 126,
+        "y": 23,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 143,
+        "y": 23,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 126,
+        "y": 40,
+        "slotid": 2
+      },
+      {
+        "type": "OUTPUT",
+        "x": 144,
+        "y": 41,
+        "slotid": 3
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -5,11 +5,18 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.block.state.properties.*;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.SimpleWaterloggedBlock;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -20,38 +27,21 @@ import com.google.common.collect.ImmutableMap;
 
 public class WhiteConcreteStonePillarBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-	public static final EnumProperty<AttachFace> FACE = FaceAttachedHorizontalDirectionalBlock.FACE;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	private final ImmutableMap<BlockState, VoxelShape> shapes = this.makeShapes();
 
 	public WhiteConcreteStonePillarBlock() {
 		super(BlockBehaviour.Properties.of().strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.BASS));
-		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL).setValue(WATERLOGGED, false));
+		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
 	private ImmutableMap<BlockState, VoxelShape> makeShapes() {
 		return this.getShapeForEachState(state -> {
 			return switch (state.getValue(FACING)) {
-				case NORTH -> switch (state.getValue(FACE)) {
-					case FLOOR -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
-					case WALL -> Shapes.or(box(1, 5, 0, 15, 11, 16), box(1, 5, 0, 15, 11, 16), box(5, 1, 0, 11, 15, 16), box(5, 1, 0, 11, 15, 16));
-					case CEILING -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
-				};
-				case EAST -> switch (state.getValue(FACE)) {
-					case FLOOR -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
-					case WALL -> Shapes.or(box(0, 5, 1, 16, 11, 15), box(0, 5, 1, 16, 11, 15), box(0, 1, 5, 16, 15, 11), box(0, 1, 5, 16, 15, 11));
-					case CEILING -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
-				};
-				case WEST -> switch (state.getValue(FACE)) {
-					case FLOOR -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
-					case WALL -> Shapes.or(box(0, 5, 1, 16, 11, 15), box(0, 5, 1, 16, 11, 15), box(0, 1, 5, 16, 15, 11), box(0, 1, 5, 16, 15, 11));
-					case CEILING -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
-				};
-				default -> switch (state.getValue(FACE)) {
-					case FLOOR -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
-					case WALL -> Shapes.or(box(1, 5, 0, 15, 11, 16), box(1, 5, 0, 15, 11, 16), box(5, 1, 0, 11, 15, 16), box(5, 1, 0, 11, 15, 16));
-					case CEILING -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
-				};
+				case NORTH -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
+				case EAST -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
+				case WEST -> Shapes.or(box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15), box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11));
+				default -> Shapes.or(box(1, 0, 5, 15, 16, 11), box(1, 0, 5, 15, 16, 11), box(5, 0, 1, 11, 16, 15), box(5, 0, 1, 11, 16, 15));
 			};
 		});
 	}
@@ -79,7 +69,7 @@ public class WhiteConcreteStonePillarBlock extends Block implements SimpleWaterl
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(FACING, FACE, WATERLOGGED);
+		builder.add(FACING, WATERLOGGED);
 	}
 
 	@Override
@@ -88,7 +78,9 @@ public class WhiteConcreteStonePillarBlock extends Block implements SimpleWaterl
 		if (state == null)
 			return null;
 		boolean flag = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
-		return state.setValue(FACE, faceForDirection(context.getNearestLookingDirection())).setValue(FACING, context.getHorizontalDirection().getOpposite()).setValue(WATERLOGGED, flag);
+		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
+			return state.setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, flag);
+		return state.setValue(FACING, context.getClickedFace()).setValue(WATERLOGGED, flag);
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -97,13 +89,6 @@ public class WhiteConcreteStonePillarBlock extends Block implements SimpleWaterl
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	private AttachFace faceForDirection(Direction direction) {
-		if (direction.getAxis() == Direction.Axis.Y)
-			return direction == Direction.UP ? AttachFace.CEILING : AttachFace.FLOOR;
-		else
-			return AttachFace.WALL;
 	}
 
 	@Override

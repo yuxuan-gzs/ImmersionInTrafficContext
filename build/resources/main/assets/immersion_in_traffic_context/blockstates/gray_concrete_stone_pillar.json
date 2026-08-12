@@ -1,57 +1,19 @@
 {
   "variants": {
-    "face=floor,facing=north": {
+    "facing=north": {
       "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar"
     },
-    "face=floor,facing=east": {
+    "facing=east": {
       "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
       "y": 90
     },
-    "face=floor,facing=south": {
+    "facing=south": {
       "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
       "y": 180
     },
-    "face=floor,facing=west": {
+    "facing=west": {
       "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
       "y": 270
-    },
-    "face=wall,facing=north": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 90
-    },
-    "face=wall,facing=east": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 90,
-      "y": 90
-    },
-    "face=wall,facing=south": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 90,
-      "y": 180
-    },
-    "face=wall,facing=west": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 90,
-      "y": 270
-    },
-    "face=ceiling,facing=north": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 180,
-      "y": 180
-    },
-    "face=ceiling,facing=east": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 180,
-      "y": 270
-    },
-    "face=ceiling,facing=south": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 180
-    },
-    "face=ceiling,facing=west": {
-      "model": "immersion_in_traffic_context:block/gray_concrete_stone_pillar",
-      "x": 180,
-      "y": 90
     }
   }
 }
